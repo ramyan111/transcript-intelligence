@@ -1,0 +1,101 @@
+transcript_id,call_type,topic_label,sentiment_label,data_origin,text_hash
+SYN-001,internal,Deployment & Release Management,Mixed,synthetic,dc3be1d4e2cd1aac
+SYN-002,support,Performance & Latency,Negative,synthetic,d482772ab4ca029d
+SYN-003,support,Authentication & Access,Mixed,synthetic,cd05fa4c547a9b96
+SYN-004,external,Renewals & Pricing,Negative,synthetic,879d520f50f925d9
+SYN-005,support,Billing & Payments,Mixed,synthetic,20ee9729dacb2f0f
+SYN-006,external,Adoption & Onboarding,Mixed,synthetic,f2148b34762b1b9e
+SYN-007,support,Billing & Payments,Mixed,synthetic,8b254b41e6c0e7af
+SYN-008,internal,Reliability & Outages,Neutral,synthetic,ee6b37634ab0429d
+SYN-009,external,Renewals & Pricing,Positive,synthetic,91b077b5e50b28d3
+SYN-010,external,Product Features & Feedback,Mixed,synthetic,79b14ad3b729f1ca
+SYN-011,support,Product Features & Feedback,Mixed,synthetic,521f4f686dbbfc72
+SYN-012,support,Product Features & Feedback,Mixed,synthetic,eb19758ab304f246
+SYN-013,internal,Engineering Blockers,Negative,synthetic,59d41abfcd20c54f
+SYN-014,internal,Reliability & Outages,Neutral,synthetic,4e05b1ed0f60e9d1
+SYN-015,support,Authentication & Access,Positive,synthetic,314ac6c496da0186
+SYN-016,support,Performance & Latency,Negative,synthetic,bd41e95be48e1a93
+SYN-017,internal,Deployment & Release Management,Mixed,synthetic,19e992092a53b668
+SYN-018,internal,Engineering Blockers,Mixed,synthetic,be1e670ab308ccf9
+SYN-019,support,Performance & Latency,Negative,synthetic,9b98b1b3e937adbd
+SYN-020,support,Reliability & Outages,Negative,synthetic,89197cdd3c5d36cf
+SYN-021,support,Reliability & Outages,Negative,synthetic,d07f7987126cab68
+SYN-022,external,Renewals & Pricing,Positive,synthetic,c87ded909217ebc3
+SYN-023,internal,Reliability & Outages,Neutral,synthetic,e8430e58a22cb7a7
+SYN-024,external,Renewals & Pricing,Mixed,synthetic,26b49f9e179acaca
+SYN-025,support,Reliability & Outages,Negative,synthetic,20680db0077784c7
+SYN-026,support,Authentication & Access,Mixed,synthetic,627da8861c192dfb
+SYN-027,support,Performance & Latency,Negative,synthetic,0905a43f2e0b9ba5
+SYN-028,support,Reliability & Outages,Negative,synthetic,09fa7973114915da
+SYN-029,internal,Engineering Blockers,Negative,synthetic,da793986b6be9802
+SYN-030,support,Billing & Payments,Mixed,synthetic,a25fc706e7e139c6
+SYN-031,internal,Engineering Blockers,Negative,synthetic,05c1edf77cebb3db
+SYN-032,support,Reliability & Outages,Negative,synthetic,78e120722ca5241e
+SYN-033,external,Adoption & Onboarding,Mixed,synthetic,777c7e3bae3d4c4b
+SYN-034,support,Billing & Payments,Mixed,synthetic,b8e90fdb39633c5c
+SYN-035,support,Authentication & Access,Positive,synthetic,ad30882155f4807f
+SYN-036,external,Renewals & Pricing,Mixed,synthetic,c77a68a7c336caf8
+SYN-037,support,Billing & Payments,Mixed,synthetic,ff3ca64bf9496002
+SYN-038,support,Authentication & Access,Positive,synthetic,cf406ce727aa45a4
+SYN-039,support,Performance & Latency,Negative,synthetic,764b79488bbdc385
+SYN-040,external,Product Features & Feedback,Mixed,synthetic,f0a808e4de7b07be
+SYN-041,external,Product Features & Feedback,Mixed,synthetic,155c54df0ce0392a
+SYN-042,support,Reliability & Outages,Negative,synthetic,cd1bc30fe67a1568
+SYN-043,support,Authentication & Access,Positive,synthetic,878bddcec1095d48
+SYN-044,external,Adoption & Onboarding,Mixed,synthetic,69c071b9617fe312
+SYN-045,internal,Engineering Blockers,Mixed,synthetic,7497348a72ce772d
+SYN-046,support,Authentication & Access,Mixed,synthetic,4e2faac92cab0210
+SYN-047,external,Renewals & Pricing,Mixed,synthetic,5a81764d36f3be32
+SYN-048,external,Renewals & Pricing,Mixed,synthetic,1eae0706fd02e880
+SYN-049,support,Product Features & Feedback,Mixed,synthetic,c2d8d755e4af7a87
+SYN-050,support,Product Features & Feedback,Mixed,synthetic,f73485612fb669d3
+SYN-051,external,Renewals & Pricing,Positive,synthetic,f755c9078e68f90f
+SYN-052,external,Renewals & Pricing,Mixed,synthetic,edbcd372d34130cb
+SYN-053,internal,Reliability & Outages,Neutral,synthetic,c0716a5de3c290f1
+SYN-054,support,Billing & Payments,Mixed,synthetic,089d5b36c348d3df
+SYN-055,support,Reliability & Outages,Negative,synthetic,6d45db3900be81a7
+SYN-056,external,Renewals & Pricing,Mixed,synthetic,ac4389eb2fbca82b
+SYN-057,support,Authentication & Access,Mixed,synthetic,2ed76485903e4d40
+SYN-058,internal,Deployment & Release Management,Mixed,synthetic,d741267cc7ddaba4
+SYN-059,external,Renewals & Pricing,Negative,synthetic,1c6014581d767691
+SYN-060,external,Adoption & Onboarding,Mixed,synthetic,d0c5e6764bd27bb3
+SYN-061,external,Renewals & Pricing,Negative,synthetic,e930fa6f3add2f0a
+SYN-062,external,Adoption & Onboarding,Mixed,synthetic,e7409a9e6428f332
+SYN-063,internal,Deployment & Release Management,Mixed,synthetic,8bdd24f5fa847eb8
+SYN-064,support,Product Features & Feedback,Mixed,synthetic,2c627f22c92cc4ec
+SYN-065,external,Adoption & Onboarding,Mixed,synthetic,ed3b28644a18f184
+SYN-066,support,Billing & Payments,Mixed,synthetic,fd5e3c3bbd964a48
+SYN-067,internal,Engineering Blockers,Negative,synthetic,db367932ab8b7f6c
+SYN-068,external,Renewals & Pricing,Negative,synthetic,f4b7bd09ac86d6a0
+SYN-069,support,Authentication & Access,Mixed,synthetic,f72a1ba3b1fe44af
+SYN-070,internal,Engineering Blockers,Negative,synthetic,013f97e2d54e1c07
+SYN-071,internal,Reliability & Outages,Neutral,synthetic,f7d4e7c0b0365ab0
+SYN-072,external,Product Features & Feedback,Mixed,synthetic,4f570daed4350809
+SYN-073,external,Product Features & Feedback,Mixed,synthetic,e11b687eb8d21cbb
+SYN-074,internal,Reliability & Outages,Neutral,synthetic,9147e56871b56cee
+SYN-075,internal,Engineering Blockers,Mixed,synthetic,151563ec2ac6e47f
+SYN-076,external,Renewals & Pricing,Negative,synthetic,87ceffebb4576a0b
+SYN-077,internal,Deployment & Release Management,Mixed,synthetic,6471e3c0e311da0b
+SYN-078,support,Product Features & Feedback,Mixed,synthetic,7d7521405da301fe
+SYN-079,external,Renewals & Pricing,Positive,synthetic,0745f99c27f9b1b2
+SYN-080,support,Billing & Payments,Mixed,synthetic,68cb9d2aa19a5d6a
+SYN-081,external,Renewals & Pricing,Negative,synthetic,d219dd097f90f706
+SYN-082,internal,Deployment & Release Management,Mixed,synthetic,29bf0ad0fd6d49f7
+SYN-083,external,Renewals & Pricing,Negative,synthetic,465f1ccc4e1fd4bc
+SYN-084,internal,Engineering Blockers,Negative,synthetic,5c16f5c29dca8101
+SYN-085,internal,Engineering Blockers,Mixed,synthetic,a732b24a40029953
+SYN-086,internal,Engineering Blockers,Mixed,synthetic,fd413702e1189f18
+SYN-087,support,Billing & Payments,Mixed,synthetic,a4f015ca65068c8c
+SYN-088,external,Adoption & Onboarding,Mixed,synthetic,62f94250b2dcc32a
+SYN-089,external,Product Features & Feedback,Mixed,synthetic,6bae2e1f43eea303
+SYN-090,external,Product Features & Feedback,Mixed,synthetic,34e3fc02f608473b
+SYN-091,external,Renewals & Pricing,Negative,synthetic,45c67d2332d22aae
+SYN-092,support,Billing & Payments,Mixed,synthetic,ac624c95600a7ab8
+SYN-093,support,Authentication & Access,Mixed,synthetic,aef602162b34471f
+SYN-094,internal,Engineering Blockers,Mixed,synthetic,a2f6b77677a0602c
+SYN-095,support,Authentication & Access,Mixed,synthetic,f10bde3cdaf1769c
+SYN-096,external,Product Features & Feedback,Mixed,synthetic,1587869512fd5f82
+SYN-097,external,Renewals & Pricing,Positive,synthetic,b092caa5d127bb04
+SYN-098,external,Product Features & Feedback,Mixed,synthetic,03320abe9ccb7096
+SYN-099,internal,Deployment & Release Management,Mixed,synthetic,58e5c8ada5727e78
+SYN-100,support,Performance & Latency,Negative,synthetic,c4e480efdcbb584e

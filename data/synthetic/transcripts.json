@@ -1,0 +1,805 @@
+{
+  "_note": "SYNTHETIC demo data. Not real calls.",
+  "transcripts": [
+    {
+      "transcript_id": "SYN-001",
+      "call_type": "internal",
+      "call_date": "2026-05-27T15:30+00:00",
+      "customer_id": "",
+      "transcript_text": "[15:30] Eng Manager: (Sprint 25) Let's review the release status. Where do we stand on the 2.4 release?\n[15:31] Engineer A: We are delayed. The integration tests are flaky and the staging deploy failed twice.\n[15:35] Engineer B: QA is blocked waiting on the build. I think we need to slip the release by a week.\n[15:36] Eng Manager: That's frustrating but fine. I'll update the release train.\n[15:40] Engineer A: I'll fix the flaky tests today and we will redeploy to staging tomorrow.\n[15:43] Engineer B: Action item: someone should own the rollback plan before we ship.\n[15:45] Eng Manager: What dependency should we raise first if the staging build fails again?\n[15:49] Engineer A: The test environment is the immediate dependency; I will attach the failing job output.\n[15:50] Engineer B: I will update the release ticket with the rollback owner and revised date.\n[15:53] Eng Manager: Let's review the build status in tomorrow's stand-up.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-002",
+      "call_type": "support",
+      "call_date": "2026-04-16T11:45+00:00",
+      "customer_id": "CUST-03",
+      "transcript_text": "[11:45] Agent: Support here. What's going on?\n[11:49] Customer: Hi, this is Morgan from Cobalt Retail. Calls to the webhook service are very slow, p95 latency is over 12 seconds and we see timeouts.\n[11:50] Agent: Thanks. Are the timeouts only on large queries, or on everything?\n[11:54] Customer: Mostly large exports. It's getting painful.\n[11:58] Agent: I can see elevated response time on your region. I'll open a performance ticket and follow up.\n[11:59] Customer: Okay, please keep me posted.\n[12:02] Customer: Can you share an estimated time for the performance investigation?\n[12:05] Agent: I will attach your request IDs and the affected region to the ticket.\n[12:09] Customer: Please keep the case open until the timeouts stop.\n[12:13] Agent: Agreed. I will send the next update even if the investigation is still underway.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-003",
+      "call_type": "support",
+      "call_date": "2026-04-24T11:15+00:00",
+      "customer_id": "CUST-04",
+      "transcript_text": "[11:15] Agent: Thanks for contacting support, this is Maya. How can I help?\n[11:16] Customer: Hi, this is Alex from Dunmore Health. Our users can't log in through SSO since we changed Okta last week. It is blocking about 30 people.\n[11:18] Agent: I'm sorry about that. Can you share the SAML error you see?\n[11:22] Customer: It says invalid assertion signature. This is really frustrating, we have a deadline today.\n[11:24] Agent: It looks like the signing certificate on the identity provider side doesn't match the one in your tenant. Let's update the certificate together.\n[11:28] Customer: Okay, please be quick, this is unacceptable for a paid plan.\n[11:31] Agent: I'll send the steps by email and follow up in an hour.\n[11:32] Customer: I can test with one affected user before we roll this out to the whole team.\n[11:34] Agent: Please confirm whether the SAML login succeeds with the updated certificate.\n[11:38] Customer: I'll test with our admin account now and send you the result.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-004",
+      "call_type": "external",
+      "call_date": "2026-06-27T16:30+00:00",
+      "customer_id": "CUST-13",
+      "transcript_text": "[16:30] Account Manager: Thanks for making time. I wanted to talk about your renewal in two months.\n[16:31] Client: Hi, this is Morgan from Meridian Bank. Honestly we're on the fence about the renewal. Pricing went up and the budget is tight this year.\n[16:34] Account Manager: I understand. What would help you decide?\n[16:37] Client: We are evaluating Fluxio and comparing prices. The outages last quarter worried us.\n[16:41] Account Manager: I hear you. Let me see what we can do on price and reliability commitments.\n[16:43] Client: Okay, send something. We haven't decided yet.\n[16:47] Client: Reliability and the total renewal cost are the two issues leadership wants addressed.\n[16:51] Account Manager: I will separate the pricing proposal from the reliability follow-up.\n[16:54] Client: Please include the renewal deadline so we can review both items internally.\n[16:57] Account Manager: I will send the proposal and schedule a check-in before that deadline.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-005",
+      "call_type": "support",
+      "call_date": "2026-07-18T16:45+00:00",
+      "customer_id": "CUST-13",
+      "transcript_text": "[16:45] Agent: Hello, thanks for calling billing support.\n[16:47] Customer: Hi, this is Casey from Meridian Bank. We were charged twice for the March invoice. I'm worried about our cash flow.\n[16:49] Agent: I see two payments on the credit card ending 4417. I'm sorry about the duplicate charge.\n[16:52] Customer: Please refund one of them, I'd appreciate it.\n[16:54] Agent: I've issued the refund. It takes five to seven business days. I'll send a confirmation receipt.\n[16:55] Customer: Thanks, that's helpful.\n[16:56] Agent: Could you confirm which invoice number should remain on the account?\n[16:59] Customer: Keep the original invoice and reverse the second payment.\n[17:00] Agent: Understood. I have added that instruction to the refund request.\n[17:01] Customer: Thanks, I will watch for the confirmation email.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-006",
+      "call_type": "external",
+      "call_date": "2026-04-04T13:15+00:00",
+      "customer_id": "CUST-06",
+      "transcript_text": "[13:15] Account Manager: Let's review adoption since the kickoff.\n[13:18] Client: Hi, this is Jordan from Fathom Media. Usage is low. Only about a quarter of our seats are logging in weekly and the training sessions were poorly attended.\n[13:19] Account Manager: Thanks for being open. Do you have an internal champion?\n[13:21] Client: Not really, our champion left. We are worried we're not getting value.\n[13:24] Account Manager: We can run a new enablement workshop and activate the remaining teams.\n[13:25] Client: That would be helpful, let's schedule it.\n[13:27] Client: The new users will need a short session focused on their daily workflow.\n[13:31] Account Manager: I will tailor the workshop and send a few times for next week.\n[13:32] Client: Please include the team leads so they can reinforce the process afterward.\n[13:33] Account Manager: I will add them to the invite and share the setup guide.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-007",
+      "call_type": "support",
+      "call_date": "2026-04-10T15:15+00:00",
+      "customer_id": "CUST-04",
+      "transcript_text": "[15:15] Agent: Support, how can I help?\n[15:17] Customer: Hi, this is Morgan from Dunmore Health. The invoice shows the wrong tax rate for our region. Finance flagged it and they are annoyed.\n[15:21] Agent: Thanks for flagging. I'll check the tax settings on your billing profile.\n[15:24] Customer: Please correct it and reissue the invoice. Everything else about the service is good.\n[15:27] Agent: I will reissue it today and send a corrected receipt.\n[15:29] Customer: Can you confirm whether finance needs to submit a new tax form?\n[15:31] Agent: The current profile has the right address; I will verify the tax code with billing.\n[15:32] Customer: Please let me know if you need anything else from our finance team.\n[15:34] Agent: I will include the corrected invoice and the reason for the change in my update.\n[15:38] Customer: All right. We will hold payment until the corrected copy arrives.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-008",
+      "call_type": "internal",
+      "call_date": "2026-09-05T14:30+00:00",
+      "customer_id": "",
+      "transcript_text": "[14:30] Eng Manager: (Sprint 42) Thanks everyone for joining the incident review for last week's SSO and login outage.\n[14:31] Engineer A: Root cause was an expired signing certificate in the auth service, which caused SAML callback failures.\n[14:32] Engineer B: Customers saw 403 errors and some saw 503 on the webhook service. We rolled back the config change within an hour.\n[14:36] Eng Manager: What's still unresolved?\n[14:39] Engineer A: Monitoring didn't alert us. That's a gap and still unresolved.\n[14:41] Engineer B: I'll add the alert and we will write the follow-up tasks today. Let's review in two weeks.\n[14:42] Eng Manager: Who owns the certificate renewal work and the missing alert?\n[14:44] Engineer A: I will own the alert; the platform team needs to confirm the renewal change.\n[14:48] Engineer B: I will link both tasks to the incident review record.\n[14:49] Eng Manager: Please bring the verification results to the follow-up review.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-009",
+      "call_type": "external",
+      "call_date": "2026-09-03T13:15+00:00",
+      "customer_id": "CUST-16",
+      "transcript_text": "[13:15] Account Manager: Great to see you, ready to talk renewal?\n[13:17] Client: Hi, this is Taylor from Pinecrest Realty. Yes, we're happy with the platform and plan to renew. Adoption has been excellent.\n[13:20] Account Manager: Wonderful. Would you like to expand to more seats?\n[13:22] Client: Yes, the team loves it and the support has been great.\n[13:23] Account Manager: I'll send the renewal quote and an expansion proposal this week.\n[13:24] Client: Our operations group has been using the new reports in its weekly review.\n[13:27] Account Manager: That is helpful context for the seat expansion estimate.\n[13:31] Client: Please keep the renewal terms and added seats on the same proposal.\n[13:32] Account Manager: I will send one draft with the current and expanded options.\n[13:35] Client: Thanks. I will route it to procurement for approval.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-010",
+      "call_type": "external",
+      "call_date": "2026-07-20T09:30+00:00",
+      "customer_id": "CUST-09",
+      "transcript_text": "[09:30] Account Manager: I'd love your product feedback before the roadmap review.\n[09:34] Client: Hi, this is Riley from Ironbridge Capital. The product is good overall. We need webhooks for ticket events. Do you support that on the roadmap?\n[09:37] Account Manager: I'll note it. How important is it for your workflow?\n[09:38] Client: It is missing and it's a blocker for two of our teams, a little disappointing.\n[09:40] Account Manager: Understood. I will follow up with product and share an update.\n[09:44] Client: The missing capability adds a manual step to our monthly reconciliation.\n[09:45] Account Manager: I will capture that workflow and pass it to the product review.\n[09:46] Client: A rough timing estimate would help us plan around the current limitation.\n[09:48] Account Manager: I can request an update, but the roadmap team makes the timing decision.\n[09:51] Client: Understood. Please share whatever the team can confirm.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-011",
+      "call_type": "support",
+      "call_date": "2026-09-27T15:30+00:00",
+      "customer_id": "CUST-14",
+      "transcript_text": "[15:30] Agent: Hi, thanks for contacting support.\n[15:33] Customer: Hi, this is Riley from Northpeak Gear. Is there a way to get SAML group mapping? We need a way to automate this and it's missing today.\n[15:36] Agent: That isn't available right now, but I can log a feature request for you.\n[15:38] Customer: Okay. We'd love to see it on the roadmap.\n[15:39] Agent: I'll file it with product and send you the reference.\n[15:41] Customer: The team currently exports each report manually, which takes several hours.\n[15:44] Agent: I will include that workflow impact with the request for the product team.\n[15:45] Customer: A status update would help us decide whether to build a temporary workaround.\n[15:47] Agent: I can share the request reference, but I cannot promise a delivery date.\n[15:49] Customer: That is fair. Please send the reference when it is available.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-012",
+      "call_type": "support",
+      "call_date": "2026-05-20T12:15+00:00",
+      "customer_id": "CUST-16",
+      "transcript_text": "[12:15] Agent: Hi, thanks for contacting support.\n[12:18] Customer: Hi, this is Sam from Pinecrest Realty. Is there a way to get role-based dashboards? We need a way to automate this and it's missing today.\n[12:20] Agent: That isn't available right now, but I can log a feature request for you.\n[12:23] Customer: Okay. We'd love to see it on the roadmap.\n[12:24] Agent: I'll file it with product and send you the reference.\n[12:26] Customer: The team currently exports each report manually, which takes several hours.\n[12:29] Agent: I will include that workflow impact with the request for the product team.\n[12:30] Customer: A status update would help us decide whether to build a temporary workaround.\n[12:31] Agent: I can share the request reference, but I cannot promise a delivery date.\n[12:34] Customer: That is fair. Please send the reference when it is available.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-013",
+      "call_type": "internal",
+      "call_date": "2026-09-29T11:30+00:00",
+      "customer_id": "",
+      "transcript_text": "[11:30] Eng Manager: (Sprint 40) What's blocking the latency work?\n[11:33] Engineer A: We are blocked on the platform team for the new cache layer. They have no capacity until next quarter.\n[11:34] Engineer B: The backlog of tech debt in the query service is also slowing us down, and the review bottleneck is real.\n[11:37] Eng Manager: I'll escalate the dependency to the director.\n[11:39] Engineer A: That helps. I will write the design doc and send it for review.\n[11:42] Eng Manager: Can we split the cache work so the team can make progress before next quarter?\n[11:44] Engineer A: I can document the interface, but the platform team still owns the deployment dependency.\n[11:47] Engineer B: I will write down the review bottleneck and estimate the work we can do in parallel.\n[11:48] Eng Manager: Let's review both owners and dates at the next planning meeting.\n[11:50] Engineer A: I will send the design outline before then.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-014",
+      "call_type": "internal",
+      "call_date": "2026-04-18T13:15+00:00",
+      "customer_id": "",
+      "transcript_text": "[13:15] Eng Manager: (Sprint 42) Thanks everyone for joining the incident review for last week's SSO and login outage.\n[13:16] Engineer A: Root cause was an expired signing certificate in the auth service, which caused SAML callback failures.\n[13:19] Engineer B: Customers saw 403 errors and some saw 503 on the dashboard. We rolled back the config change within an hour.\n[13:21] Eng Manager: What's still unresolved?\n[13:22] Engineer A: Monitoring didn't alert us. That's a gap and still unresolved.\n[13:25] Engineer B: I'll add the alert and we will write the follow-up tasks today. Let's review in two weeks.\n[13:28] Eng Manager: Who owns the certificate renewal work and the missing alert?\n[13:30] Engineer A: I will own the alert; the platform team needs to confirm the renewal change.\n[13:34] Engineer B: I will link both tasks to the incident review record.\n[13:38] Eng Manager: Please bring the verification results to the follow-up review.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-015",
+      "call_type": "support",
+      "call_date": "2026-08-25T15:15+00:00",
+      "customer_id": "CUST-18",
+      "transcript_text": "[15:15] Agent: Support here, how can I help today?\n[15:19] Customer: Hi, this is Reese from Redwood Legal. My MFA codes stopped working after I got a new phone. I'm locked out of my admin account.\n[15:23] Agent: No problem, I can reset your MFA device after verifying your identity.\n[15:25] Customer: Great, thanks. I verified by email already.\n[15:26] Agent: Done. Please log in and re-enroll a device. I'll stay on the line.\n[15:27] Customer: It works now. I appreciate the quick help.\n[15:31] Agent: Before we wrap up, can you confirm the backup codes are available?\n[15:34] Customer: Yes, I have them stored and will update my backup device.\n[15:38] Agent: Great. I will add the recovery steps to the support case.\n[15:42] Customer: Confirmed, I can reach the admin console now.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-016",
+      "call_type": "support",
+      "call_date": "2026-06-19T14:30+00:00",
+      "customer_id": "CUST-11",
+      "transcript_text": "[14:30] Agent: Support here. What's going on?\n[14:34] Customer: Hi, this is Avery from Kestrel Travel. Calls to the dashboard are very slow, p95 latency is over 20 seconds and we see timeouts.\n[14:37] Agent: Thanks. Are the timeouts only on large queries, or on everything?\n[14:39] Customer: Everything since Monday. It is hurting our customers and I'm disappointed.\n[14:41] Agent: I can see elevated response time on your region. I'll open a performance ticket and follow up.\n[14:45] Customer: Okay, please keep me posted.\n[14:49] Customer: Can you share an estimated time for the performance investigation?\n[14:51] Agent: I will attach your request IDs and the affected region to the ticket.\n[14:54] Customer: Please keep the case open until the timeouts stop.\n[14:58] Agent: Agreed. I will send the next update even if the investigation is still underway.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-017",
+      "call_type": "internal",
+      "call_date": "2026-06-15T09:00+00:00",
+      "customer_id": "",
+      "transcript_text": "[09:00] Eng Manager: (Sprint 24) Let's review the release status. Where do we stand on the 2.4 release?\n[09:03] Engineer A: We are delayed. The integration tests are flaky and the staging deploy failed twice.\n[09:05] Engineer B: QA is blocked waiting on the build. I think we need to slip the release by a week.\n[09:09] Eng Manager: Okay, let's freeze scope and I'll tell product.\n[09:11] Engineer A: I'll fix the flaky tests today and we will redeploy to staging tomorrow.\n[09:13] Engineer B: Action item: someone should own the rollback plan before we ship.\n[09:15] Eng Manager: What dependency should we raise first if the staging build fails again?\n[09:17] Engineer A: The test environment is the immediate dependency; I will attach the failing job output.\n[09:21] Engineer B: I will update the release ticket with the rollback owner and revised date.\n[09:22] Eng Manager: Let's review the build status in tomorrow's stand-up.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-018",
+      "call_type": "internal",
+      "call_date": "2026-06-13T09:45+00:00",
+      "customer_id": "",
+      "transcript_text": "[09:45] Support Lead: (Sprint 55) We have several customers escalating about SSO login failures and one threatening to cancel.\n[09:49] Eng Manager: How many accounts are affected?\n[09:52] Support Lead: About five that we know of. Two said they're evaluating competitors if it isn't fixed.\n[09:53] Engineer A: We can prioritize a fix for the SAML certificate handling, but it competes with the release.\n[09:55] Eng Manager: Okay, I'll take the action item to set up a daily sync until it's resolved.\n[09:56] Support Lead: Thanks, I'll send the affected account list today.\n[10:00] Eng Manager: What evidence should support use when customers ask for an update?\n[10:03] Support Lead: We can share the confirmed workaround and the next checkpoint, not an unverified ETA.\n[10:06] Eng Manager: Agreed. I will send that guidance to the account teams today.\n[10:09] Support Lead: I will update the affected accounts after the daily sync.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-019",
+      "call_type": "support",
+      "call_date": "2026-04-19T15:45+00:00",
+      "customer_id": "CUST-05",
+      "transcript_text": "[15:45] Agent: Support here. What's going on?\n[15:47] Customer: Hi, this is Drew from Evergreen Foods. Calls to the reporting API are very slow, p95 latency is over 8 seconds and we see timeouts.\n[15:51] Agent: Thanks. Are the timeouts only on large queries, or on everything?\n[15:55] Customer: Everything since Monday. It is hurting our customers and I'm disappointed.\n[15:59] Agent: I can see elevated response time on your region. I'll open a performance ticket and follow up.\n[16:01] Customer: Okay, please keep me posted.\n[16:03] Customer: Can you share an estimated time for the performance investigation?\n[16:04] Agent: I will attach your request IDs and the affected region to the ticket.\n[16:05] Customer: Please keep the case open until the timeouts stop.\n[16:09] Agent: Agreed. I will send the next update even if the investigation is still underway.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-020",
+      "call_type": "support",
+      "call_date": "2026-07-27T10:45+00:00",
+      "customer_id": "CUST-14",
+      "transcript_text": "[10:45] Agent: Support, this is Luis.\n[10:47] Customer: Hi, this is Quinn from Northpeak Gear. the reporting API is down for us, we get 503 errors. This outage is costing us money and it's unacceptable.\n[10:50] Agent: I'm sorry. I can confirm an incident and the status page is being updated.\n[10:54] Customer: Our whole operations team is stuck. I'm angry, please get an executive on the line.\n[10:58] Agent: I've escalated this as sev1 and engineering is working on it. I'll update you every thirty minutes.\n[11:02] Customer: We are evaluating other vendors if this isn't fixed.\n[11:05] Customer: Our team is checking the status page, but we need an update for our operations lead.\n[11:08] Agent: I will include the current incident status and the next update time in the case.\n[11:10] Customer: Please send the incident summary once service is stable.\n[11:11] Agent: Understood. I will follow up with the incident reference and any confirmed details.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-021",
+      "call_type": "support",
+      "call_date": "2026-08-05T13:15+00:00",
+      "customer_id": "CUST-15",
+      "transcript_text": "[13:15] Agent: Support, this is Dan.\n[13:19] Customer: Hi, this is Alex from Orchid Pharma. the webhook service is down for us, we get 503 errors. This outage is costing us money and it's unacceptable.\n[13:21] Agent: I'm sorry. I can confirm an incident and the status page is being updated.\n[13:24] Customer: Our whole operations team is stuck. I'm angry, please get an executive on the line.\n[13:27] Agent: I've escalated this as sev1 and engineering is working on it. I'll update you every thirty minutes.\n[13:30] Customer: We are evaluating other vendors if this isn't fixed.\n[13:33] Customer: Our team is checking the status page, but we need an update for our operations lead.\n[13:36] Agent: I will include the current incident status and the next update time in the case.\n[13:37] Customer: Please send the incident summary once service is stable.\n[13:39] Agent: Understood. I will follow up with the incident reference and any confirmed details.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-022",
+      "call_type": "external",
+      "call_date": "2026-05-31T12:15+00:00",
+      "customer_id": "CUST-18",
+      "transcript_text": "[12:15] Account Manager: Great to see you, ready to talk renewal?\n[12:16] Client: Hi, this is Sam from Redwood Legal. Yes, we're happy with the platform and plan to renew. Adoption has been excellent.\n[12:20] Account Manager: Wonderful. Would you like to expand to more seats?\n[12:21] Client: Absolutely, we want to add 150 seats and we're excited about the new reports.\n[12:22] Account Manager: I'll send the renewal quote and an expansion proposal this week.\n[12:26] Client: Our operations group has been using the new reports in its weekly review.\n[12:28] Account Manager: That is helpful context for the seat expansion estimate.\n[12:31] Client: Please keep the renewal terms and added seats on the same proposal.\n[12:32] Account Manager: I will send one draft with the current and expanded options.\n[12:33] Client: Thanks. I will route it to procurement for approval.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-023",
+      "call_type": "internal",
+      "call_date": "2026-05-17T16:30+00:00",
+      "customer_id": "",
+      "transcript_text": "[16:30] Eng Manager: (Sprint 58) Thanks everyone for joining the incident review for last week's SSO and login outage.\n[16:33] Engineer A: Root cause was an expired signing certificate in the auth service, which caused SAML callback failures.\n[16:34] Engineer B: Customers saw 403 errors and some saw 503 on the reporting API. We rolled back the config change within an hour.\n[16:35] Eng Manager: What's still unresolved?\n[16:38] Engineer A: We have no automated certificate renewal yet, it is a dependency on the platform team.\n[16:41] Engineer B: I'll add the alert and we will write the follow-up tasks today. Let's review in two weeks.\n[16:44] Eng Manager: Who owns the certificate renewal work and the missing alert?\n[16:48] Engineer A: I will own the alert; the platform team needs to confirm the renewal change.\n[16:52] Engineer B: I will link both tasks to the incident review record.\n[16:54] Eng Manager: Please bring the verification results to the follow-up review.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-024",
+      "call_type": "external",
+      "call_date": "2026-04-25T16:45+00:00",
+      "customer_id": "CUST-11",
+      "transcript_text": "[16:45] Account Manager: Thanks for the call. I have the pricing proposal.\n[16:48] Client: Hi, this is Riley from Kestrel Travel. The price increase is too expensive for us. Finance cut our budget and we need a discount.\n[16:51] Account Manager: We can offer 10 percent for a two year contract.\n[16:53] Client: Okay, that is closer. Let me take it to finance.\n[16:56] Account Manager: I'll send an updated quote and we can talk again Friday.\n[16:57] Client: We need the renewal total to stay within the budget approved this quarter.\n[16:59] Account Manager: I will show the revised term and discount as separate line items.\n[17:02] Client: Please make the expiration date for the quote clear.\n[17:05] Account Manager: I will include that and send the proposal for your finance review.\n[17:09] Client: Thank you. I will bring it to our next budget meeting.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-025",
+      "call_type": "support",
+      "call_date": "2026-07-09T13:45+00:00",
+      "customer_id": "CUST-16",
+      "transcript_text": "[13:45] Agent: Support, this is Dan.\n[13:47] Customer: Hi, this is Alex from Pinecrest Realty. the dashboard is down for us, we get 503 errors. This outage is costing us money and it's unacceptable.\n[13:51] Agent: I'm sorry. I can confirm an incident and the status page is being updated.\n[13:53] Customer: Our whole operations team is stuck. I'm angry, please get an executive on the line.\n[13:54] Agent: I've escalated this as sev1 and engineering is working on it. I'll update you every thirty minutes.\n[13:58] Customer: We are evaluating other vendors if this isn't fixed.\n[13:59] Customer: Our team is checking the status page, but we need an update for our operations lead.\n[14:00] Agent: I will include the current incident status and the next update time in the case.\n[14:04] Customer: Please send the incident summary once service is stable.\n[14:06] Agent: Understood. I will follow up with the incident reference and any confirmed details.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-026",
+      "call_type": "support",
+      "call_date": "2026-09-24T11:30+00:00",
+      "customer_id": "CUST-16",
+      "transcript_text": "[11:30] Agent: Thanks for contacting support, this is Maya. How can I help?\n[11:34] Customer: Hi, this is Avery from Pinecrest Realty. Our users can't log in through SSO since we changed Ping Identity last night. It is blocking about 80 people.\n[11:37] Agent: I'm sorry about that. Can you share the SAML error you see?\n[11:41] Customer: It says invalid assertion signature. Not sure what changed on our side.\n[11:45] Agent: It looks like the signing certificate on the identity provider side doesn't match the one in your tenant. Let's update the certificate together.\n[11:46] Customer: Okay, please be quick, this is unacceptable for a paid plan.\n[11:48] Agent: I'll send the steps by email and follow up in an hour.\n[11:50] Customer: I can test with one affected user before we roll this out to the whole team.\n[11:51] Agent: Please confirm whether the SAML login succeeds with the updated certificate.\n[11:54] Customer: I'll test with our admin account now and send you the result.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-027",
+      "call_type": "support",
+      "call_date": "2026-07-23T15:15+00:00",
+      "customer_id": "CUST-10",
+      "transcript_text": "[15:15] Agent: Support here. What's going on?\n[15:19] Customer: Hi, this is Jamie from Juniper Energy. Calls to the ingestion service are very slow, p95 latency is over 12 seconds and we see timeouts.\n[15:21] Agent: Thanks. Are the timeouts only on large queries, or on everything?\n[15:22] Customer: Mostly large exports. It's getting painful.\n[15:25] Agent: I can see elevated response time on your region. I'll open a performance ticket and follow up.\n[15:28] Customer: Okay, please keep me posted.\n[15:29] Customer: Can you share an estimated time for the performance investigation?\n[15:31] Agent: I will attach your request IDs and the affected region to the ticket.\n[15:34] Customer: Please keep the case open until the timeouts stop.\n[15:36] Agent: Agreed. I will send the next update even if the investigation is still underway.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-028",
+      "call_type": "support",
+      "call_date": "2026-05-10T11:15+00:00",
+      "customer_id": "CUST-03",
+      "transcript_text": "[11:15] Agent: Support, this is Maya.\n[11:19] Customer: Hi, this is Drew from Cobalt Retail. the reporting API is down for us, we get 503 errors. This outage is costing us money and it's unacceptable.\n[11:20] Agent: I'm sorry. I can confirm an incident and the status page is being updated.\n[11:22] Customer: This is the second outage this quarter. If it keeps happening we will cancel and look at Fluxio.\n[11:26] Agent: I've escalated this as sev1 and engineering is working on it. I'll update you every thirty minutes.\n[11:29] Customer: Fine, but we need a root cause in writing.\n[11:32] Customer: Our team is checking the status page, but we need an update for our operations lead.\n[11:34] Agent: I will include the current incident status and the next update time in the case.\n[11:35] Customer: Please send the incident summary once service is stable.\n[11:37] Agent: Understood. I will follow up with the incident reference and any confirmed details.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-029",
+      "call_type": "internal",
+      "call_date": "2026-09-12T09:45+00:00",
+      "customer_id": "",
+      "transcript_text": "[09:45] Eng Manager: (Sprint 40) What's blocking the latency work?\n[09:49] Engineer A: We are blocked on the platform team for the new cache layer. They have no capacity until next quarter.\n[09:52] Engineer B: The backlog of tech debt in the query service is also slowing us down, and the review bottleneck is real.\n[09:54] Eng Manager: I'll escalate the dependency to the director.\n[09:56] Engineer A: That helps. I will write the design doc and send it for review.\n[09:58] Eng Manager: Can we split the cache work so the team can make progress before next quarter?\n[10:02] Engineer A: I can document the interface, but the platform team still owns the deployment dependency.\n[10:03] Engineer B: I will write down the review bottleneck and estimate the work we can do in parallel.\n[10:04] Eng Manager: Let's review both owners and dates at the next planning meeting.\n[10:06] Engineer A: I will send the design outline before then.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-030",
+      "call_type": "support",
+      "call_date": "2026-06-20T09:00+00:00",
+      "customer_id": "CUST-08",
+      "transcript_text": "[09:00] Agent: Hello, thanks for calling billing support.\n[09:04] Customer: Hi, this is Jamie from Helix Studios. We were charged twice for the April invoice. I'm worried about our cash flow.\n[09:05] Agent: I see two payments on the credit card ending 4417. I'm sorry about the duplicate charge.\n[09:06] Customer: Can you refund it today? This is the second time this has happened.\n[09:08] Agent: I've issued the refund. It takes five to seven business days. I'll send a confirmation receipt.\n[09:11] Customer: Thanks, that's helpful.\n[09:13] Agent: Could you confirm which invoice number should remain on the account?\n[09:16] Customer: Keep the original invoice and reverse the second payment.\n[09:17] Agent: Understood. I have added that instruction to the refund request.\n[09:19] Customer: Thanks, I will watch for the confirmation email.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-031",
+      "call_type": "internal",
+      "call_date": "2026-07-02T14:00+00:00",
+      "customer_id": "",
+      "transcript_text": "[14:00] Eng Manager: (Sprint 43) What's blocking the latency work?\n[14:02] Engineer A: We are blocked on the platform team for the new cache layer. They have no capacity until next quarter.\n[14:06] Engineer B: The backlog of tech debt in the query service is also slowing us down, and the review bottleneck is real.\n[14:09] Eng Manager: I'll escalate the dependency to the director.\n[14:12] Engineer A: That helps. I will write the design doc and send it for review.\n[14:16] Eng Manager: Can we split the cache work so the team can make progress before next quarter?\n[14:17] Engineer A: I can document the interface, but the platform team still owns the deployment dependency.\n[14:19] Engineer B: I will write down the review bottleneck and estimate the work we can do in parallel.\n[14:22] Eng Manager: Let's review both owners and dates at the next planning meeting.\n[14:26] Engineer A: I will send the design outline before then.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-032",
+      "call_type": "support",
+      "call_date": "2026-07-26T13:30+00:00",
+      "customer_id": "CUST-06",
+      "transcript_text": "[13:30] Agent: Support, this is Maya.\n[13:34] Customer: Hi, this is Taylor from Fathom Media. the dashboard is down for us, we get 503 errors. This outage is costing us money and it's unacceptable.\n[13:37] Agent: I'm sorry. I can confirm an incident and the status page is being updated.\n[13:41] Customer: Our whole operations team is stuck. I'm angry, please get an executive on the line.\n[13:44] Agent: I've escalated this as sev1 and engineering is working on it. I'll update you every thirty minutes.\n[13:45] Customer: We are evaluating other vendors if this isn't fixed.\n[13:49] Customer: Our team is checking the status page, but we need an update for our operations lead.\n[13:50] Agent: I will include the current incident status and the next update time in the case.\n[13:51] Customer: Please send the incident summary once service is stable.\n[13:54] Agent: Understood. I will follow up with the incident reference and any confirmed details.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-033",
+      "call_type": "external",
+      "call_date": "2026-08-16T10:45+00:00",
+      "customer_id": "CUST-16",
+      "transcript_text": "[10:45] Account Manager: Let's review adoption since the kickoff.\n[10:49] Client: Hi, this is Taylor from Pinecrest Realty. Usage is low. Only about a quarter of our seats are logging in weekly and the training sessions were poorly attended.\n[10:52] Account Manager: Thanks for being open. Do you have an internal champion?\n[10:56] Client: Not really, our champion left. We are worried we're not getting value.\n[10:58] Account Manager: We can run a new enablement workshop and activate the remaining teams.\n[11:02] Client: That would be helpful, let's schedule it.\n[11:03] Client: The new users will need a short session focused on their daily workflow.\n[11:07] Account Manager: I will tailor the workshop and send a few times for next week.\n[11:11] Client: Please include the team leads so they can reinforce the process afterward.\n[11:14] Account Manager: I will add them to the invite and share the setup guide.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-034",
+      "call_type": "support",
+      "call_date": "2026-04-18T09:15+00:00",
+      "customer_id": "CUST-17",
+      "transcript_text": "[09:15] Agent: Hello, thanks for calling billing support.\n[09:19] Customer: Hi, this is Jordan from Quartz Telecom. We were charged twice for the May invoice. That is a lot of money for a small team.\n[09:20] Agent: I see two payments on the credit card ending 4417. I'm sorry about the duplicate charge.\n[09:22] Customer: Can you refund it today? This is the second time this has happened.\n[09:23] Agent: I've issued the refund. It takes five to seven business days. I'll send a confirmation receipt.\n[09:24] Customer: Okay, thank you. Please make sure it doesn't happen again.\n[09:28] Agent: Could you confirm which invoice number should remain on the account?\n[09:31] Customer: Keep the original invoice and reverse the second payment.\n[09:34] Agent: Understood. I have added that instruction to the refund request.\n[09:36] Customer: Thanks, I will watch for the confirmation email.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-035",
+      "call_type": "support",
+      "call_date": "2026-05-27T08:00+00:00",
+      "customer_id": "CUST-18",
+      "transcript_text": "[08:00] Agent: Support here, how can I help today?\n[08:01] Customer: Hi, this is Drew from Redwood Legal. My MFA codes stopped working after I got a new phone. I'm locked out of my admin account.\n[08:03] Agent: No problem, I can reset your MFA device after verifying your identity.\n[08:04] Customer: Great, thanks. I verified by email already.\n[08:05] Agent: Done. Please log in and re-enroll a device. I'll stay on the line.\n[08:08] Customer: It works now. I appreciate the quick help.\n[08:09] Agent: Before we wrap up, can you confirm the backup codes are available?\n[08:11] Customer: Yes, I have them stored and will update my backup device.\n[08:14] Agent: Great. I will add the recovery steps to the support case.\n[08:18] Customer: Confirmed, I can reach the admin console now.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-036",
+      "call_type": "external",
+      "call_date": "2026-07-28T15:00+00:00",
+      "customer_id": "CUST-09",
+      "transcript_text": "[15:00] Account Manager: Thanks for the call. I have the pricing proposal.\n[15:01] Client: Hi, this is Casey from Ironbridge Capital. The price increase is too expensive for us. Finance cut our budget and we need a discount.\n[15:04] Account Manager: We can offer 10 percent for a two year contract.\n[15:07] Client: Okay, that is closer. Let me take it to finance.\n[15:08] Account Manager: I'll send an updated quote and we can talk again Friday.\n[15:09] Client: We need the renewal total to stay within the budget approved this quarter.\n[15:13] Account Manager: I will show the revised term and discount as separate line items.\n[15:17] Client: Please make the expiration date for the quote clear.\n[15:18] Account Manager: I will include that and send the proposal for your finance review.\n[15:22] Client: Thank you. I will bring it to our next budget meeting.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-037",
+      "call_type": "support",
+      "call_date": "2026-09-10T14:30+00:00",
+      "customer_id": "CUST-09",
+      "transcript_text": "[14:30] Agent: Hello, thanks for calling billing support.\n[14:31] Customer: Hi, this is Sam from Ironbridge Capital. We were charged twice for the May invoice. I'm worried about our cash flow.\n[14:32] Agent: I see two payments on the credit card ending 4417. I'm sorry about the duplicate charge.\n[14:35] Customer: Please refund one of them, I'd appreciate it.\n[14:37] Agent: I've issued the refund. It takes five to seven business days. I'll send a confirmation receipt.\n[14:40] Customer: Okay, thank you. Please make sure it doesn't happen again.\n[14:42] Agent: Could you confirm which invoice number should remain on the account?\n[14:46] Customer: Keep the original invoice and reverse the second payment.\n[14:50] Agent: Understood. I have added that instruction to the refund request.\n[14:51] Customer: Thanks, I will watch for the confirmation email.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-038",
+      "call_type": "support",
+      "call_date": "2026-07-13T13:00+00:00",
+      "customer_id": "CUST-02",
+      "transcript_text": "[13:00] Agent: Support here, how can I help today?\n[13:02] Customer: Hi, this is Alex from Brightwave Labs. My MFA codes stopped working after I got a new phone. I'm locked out of my admin account.\n[13:04] Agent: No problem, I can reset your MFA device after verifying your identity.\n[13:06] Customer: Great, thanks. I verified by email already.\n[13:10] Agent: Done. Please log in and re-enroll a device. I'll stay on the line.\n[13:12] Customer: It works now. I appreciate the quick help.\n[13:16] Agent: Before we wrap up, can you confirm the backup codes are available?\n[13:18] Customer: Yes, I have them stored and will update my backup device.\n[13:21] Agent: Great. I will add the recovery steps to the support case.\n[13:25] Customer: Confirmed, I can reach the admin console now.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-039",
+      "call_type": "support",
+      "call_date": "2026-07-26T10:45+00:00",
+      "customer_id": "CUST-06",
+      "transcript_text": "[10:45] Agent: Support here. What's going on?\n[10:48] Customer: Hi, this is Sam from Fathom Media. Calls to the webhook service are very slow, p95 latency is over 20 seconds and we see timeouts.\n[10:52] Agent: Thanks. Are the timeouts only on large queries, or on everything?\n[10:56] Customer: Everything since Monday. It is hurting our customers and I'm disappointed.\n[11:00] Agent: I can see elevated response time on your region. I'll open a performance ticket and follow up.\n[11:02] Customer: Please escalate this, we are losing time every hour.\n[11:06] Customer: Can you share an estimated time for the performance investigation?\n[11:10] Agent: I will attach your request IDs and the affected region to the ticket.\n[11:13] Customer: Please keep the case open until the timeouts stop.\n[11:15] Agent: Agreed. I will send the next update even if the investigation is still underway.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-040",
+      "call_type": "external",
+      "call_date": "2026-07-05T10:00+00:00",
+      "customer_id": "CUST-03",
+      "transcript_text": "[10:00] Account Manager: I'd love your product feedback before the roadmap review.\n[10:03] Client: Hi, this is Sam from Cobalt Retail. The product is good overall. We need CSV export. Do you support that on the roadmap?\n[10:04] Account Manager: I'll note it. How important is it for your workflow?\n[10:08] Client: It would be great if it shipped this year, otherwise we need a workaround.\n[10:11] Account Manager: Understood. I will follow up with product and share an update.\n[10:15] Client: The missing capability adds a manual step to our monthly reconciliation.\n[10:16] Account Manager: I will capture that workflow and pass it to the product review.\n[10:19] Client: A rough timing estimate would help us plan around the current limitation.\n[10:22] Account Manager: I can request an update, but the roadmap team makes the timing decision.\n[10:25] Client: Understood. Please share whatever the team can confirm.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-041",
+      "call_type": "external",
+      "call_date": "2026-05-08T09:15+00:00",
+      "customer_id": "CUST-03",
+      "transcript_text": "[09:15] Account Manager: I'd love your product feedback before the roadmap review.\n[09:18] Client: Hi, this is Drew from Cobalt Retail. The product is good overall. We need CSV export. Do you support that on the roadmap?\n[09:21] Account Manager: I'll note it. How important is it for your workflow?\n[09:25] Client: It would be great if it shipped this year, otherwise we need a workaround.\n[09:28] Account Manager: Understood. I will follow up with product and share an update.\n[09:32] Client: The missing capability adds a manual step to our monthly reconciliation.\n[09:36] Account Manager: I will capture that workflow and pass it to the product review.\n[09:37] Client: A rough timing estimate would help us plan around the current limitation.\n[09:38] Account Manager: I can request an update, but the roadmap team makes the timing decision.\n[09:40] Client: Understood. Please share whatever the team can confirm.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-042",
+      "call_type": "support",
+      "call_date": "2026-09-30T15:45+00:00",
+      "customer_id": "CUST-08",
+      "transcript_text": "[15:45] Agent: Support, this is Luis.\n[15:46] Customer: Hi, this is Quinn from Helix Studios. the webhook service is down for us, we get 503 errors. This outage is costing us money and it's unacceptable.\n[15:47] Agent: I'm sorry. I can confirm an incident and the status page is being updated.\n[15:50] Customer: This is the second outage this quarter. If it keeps happening we will cancel and look at Quillbase.\n[15:52] Agent: I've escalated this as sev1 and engineering is working on it. I'll update you every thirty minutes.\n[15:56] Customer: We are evaluating other vendors if this isn't fixed.\n[15:58] Customer: Our team is checking the status page, but we need an update for our operations lead.\n[16:01] Agent: I will include the current incident status and the next update time in the case.\n[16:04] Customer: Please send the incident summary once service is stable.\n[16:08] Agent: Understood. I will follow up with the incident reference and any confirmed details.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-043",
+      "call_type": "support",
+      "call_date": "2026-04-26T08:00+00:00",
+      "customer_id": "CUST-03",
+      "transcript_text": "[08:00] Agent: Support here, how can I help today?\n[08:01] Customer: Hi, this is Avery from Cobalt Retail. My MFA codes stopped working after I got a new phone. I'm locked out of my admin account.\n[08:03] Agent: No problem, I can reset your MFA device after verifying your identity.\n[08:05] Customer: Great, thanks. That would be perfect.\n[08:09] Agent: Done. Please log in and re-enroll a device. I'll stay on the line.\n[08:13] Customer: It works now. I appreciate the quick help.\n[08:17] Agent: Before we wrap up, can you confirm the backup codes are available?\n[08:19] Customer: Yes, I have them stored and will update my backup device.\n[08:23] Agent: Great. I will add the recovery steps to the support case.\n[08:24] Customer: Confirmed, I can reach the admin console now.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-044",
+      "call_type": "external",
+      "call_date": "2026-09-20T14:30+00:00",
+      "customer_id": "CUST-03",
+      "transcript_text": "[14:30] Account Manager: Let's review adoption since the kickoff.\n[14:31] Client: Hi, this is Quinn from Cobalt Retail. Usage is low. Only about a quarter of our seats are logging in weekly and the training sessions were poorly attended.\n[14:35] Account Manager: Thanks for being open. Do you have an internal champion?\n[14:36] Client: Not really, our champion left. We are worried we're not getting value.\n[14:39] Account Manager: We can run a new enablement workshop and activate the remaining teams.\n[14:40] Client: That would be helpful, let's schedule it.\n[14:44] Client: The new users will need a short session focused on their daily workflow.\n[14:47] Account Manager: I will tailor the workshop and send a few times for next week.\n[14:50] Client: Please include the team leads so they can reinforce the process afterward.\n[14:54] Account Manager: I will add them to the invite and share the setup guide.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-045",
+      "call_type": "internal",
+      "call_date": "2026-07-29T09:30+00:00",
+      "customer_id": "",
+      "transcript_text": "[09:30] Support Lead: (Sprint 35) We have several customers escalating about SSO login failures and one threatening to cancel.\n[09:34] Eng Manager: How many accounts are affected?\n[09:36] Support Lead: About five that we know of. Two said they're evaluating competitors if it isn't fixed.\n[09:38] Engineer A: We can prioritize a fix for the SAML certificate handling, but it competes with the release.\n[09:39] Eng Manager: Okay, I'll take the action item to set up a daily sync until it's resolved.\n[09:40] Support Lead: Thanks, I'll send the affected account list today.\n[09:43] Eng Manager: What evidence should support use when customers ask for an update?\n[09:47] Support Lead: We can share the confirmed workaround and the next checkpoint, not an unverified ETA.\n[09:51] Eng Manager: Agreed. I will send that guidance to the account teams today.\n[09:53] Support Lead: I will update the affected accounts after the daily sync.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-046",
+      "call_type": "support",
+      "call_date": "2026-09-12T15:15+00:00",
+      "customer_id": "CUST-02",
+      "transcript_text": "[15:15] Agent: Thanks for contacting support, this is Priya. How can I help?\n[15:18] Customer: Hi, this is Morgan from Brightwave Labs. Our users can't log in through SSO since we changed Okta last week. Half our team is locked out.\n[15:20] Agent: I'm sorry about that. Can you share the SAML error you see?\n[15:22] Customer: It says invalid assertion signature. Not sure what changed on our side.\n[15:25] Agent: It looks like the signing certificate on the identity provider side doesn't match the one in your tenant. I've escalated to our identity team.\n[15:29] Customer: Okay, that makes sense. Let's try it.\n[15:33] Agent: I'll send the steps by email and follow up in an hour.\n[15:36] Customer: I can test with one affected user before we roll this out to the whole team.\n[15:38] Agent: Please confirm whether the SAML login succeeds with the updated certificate.\n[15:40] Customer: I'll test with our admin account now and send you the result.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-047",
+      "call_type": "external",
+      "call_date": "2026-07-13T14:30+00:00",
+      "customer_id": "CUST-01",
+      "transcript_text": "[14:30] Account Manager: Thanks for the call. I have the pricing proposal.\n[14:31] Client: Hi, this is Drew from Acme Freight. The price increase is too expensive for us. Finance cut our budget and we need a discount.\n[14:35] Account Manager: We can offer 15 percent for a two year contract.\n[14:36] Client: That helps but it is still above what Datanest quoted us.\n[14:39] Account Manager: I'll send an updated quote and we can talk again next week.\n[14:41] Client: We need the renewal total to stay within the budget approved this quarter.\n[14:45] Account Manager: I will show the revised term and discount as separate line items.\n[14:48] Client: Please make the expiration date for the quote clear.\n[14:49] Account Manager: I will include that and send the proposal for your finance review.\n[14:53] Client: Thank you. I will bring it to our next budget meeting.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-048",
+      "call_type": "external",
+      "call_date": "2026-06-27T09:15+00:00",
+      "customer_id": "CUST-11",
+      "transcript_text": "[09:15] Account Manager: Thanks for the call. I have the pricing proposal.\n[09:16] Client: Hi, this is Sam from Kestrel Travel. The price increase is too expensive for us. Finance cut our budget and we need a discount.\n[09:18] Account Manager: We can offer 15 percent for a two year contract.\n[09:22] Client: That helps but it is still above what Fluxio quoted us.\n[09:26] Account Manager: I'll send an updated quote and we can talk again next week.\n[09:28] Client: We need the renewal total to stay within the budget approved this quarter.\n[09:31] Account Manager: I will show the revised term and discount as separate line items.\n[09:34] Client: Please make the expiration date for the quote clear.\n[09:37] Account Manager: I will include that and send the proposal for your finance review.\n[09:41] Client: Thank you. I will bring it to our next budget meeting.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-049",
+      "call_type": "support",
+      "call_date": "2026-06-12T15:45+00:00",
+      "customer_id": "CUST-16",
+      "transcript_text": "[15:45] Agent: Hi, thanks for contacting support.\n[15:49] Customer: Hi, this is Drew from Pinecrest Realty. Is there a way to get CSV export? We need a way to automate this and it's missing today.\n[15:52] Agent: That isn't available right now, but I can log a feature request for you.\n[15:54] Customer: That would be great, it would be nice if it landed soon.\n[15:55] Agent: I'll file it with product and send you the reference.\n[15:58] Customer: The team currently exports each report manually, which takes several hours.\n[16:02] Agent: I will include that workflow impact with the request for the product team.\n[16:03] Customer: A status update would help us decide whether to build a temporary workaround.\n[16:04] Agent: I can share the request reference, but I cannot promise a delivery date.\n[16:08] Customer: That is fair. Please send the reference when it is available.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-050",
+      "call_type": "support",
+      "call_date": "2026-05-09T12:00+00:00",
+      "customer_id": "CUST-03",
+      "transcript_text": "[12:00] Agent: Hi, thanks for contacting support.\n[12:02] Customer: Hi, this is Jordan from Cobalt Retail. Is there a way to get scheduled reports? We need a way to automate this and it's missing today.\n[12:03] Agent: That isn't available right now, but I can log a feature request for you.\n[12:07] Customer: That would be great, it would be nice if it landed soon.\n[12:09] Agent: I'll file it with product and send you the reference.\n[12:13] Customer: The team currently exports each report manually, which takes several hours.\n[12:17] Agent: I will include that workflow impact with the request for the product team.\n[12:21] Customer: A status update would help us decide whether to build a temporary workaround.\n[12:24] Agent: I can share the request reference, but I cannot promise a delivery date.\n[12:28] Customer: That is fair. Please send the reference when it is available.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-051",
+      "call_type": "external",
+      "call_date": "2026-07-05T14:15+00:00",
+      "customer_id": "CUST-02",
+      "transcript_text": "[14:15] Account Manager: Great to see you, ready to talk renewal?\n[14:17] Client: Hi, this is Riley from Brightwave Labs. Yes, we're happy with the platform and plan to renew. Adoption has been excellent.\n[14:21] Account Manager: Wonderful. Would you like to expand to more seats?\n[14:23] Client: Yes, the team loves it and the support has been great.\n[14:25] Account Manager: I'll send the renewal quote and an expansion proposal this week.\n[14:27] Client: Our operations group has been using the new reports in its weekly review.\n[14:28] Account Manager: That is helpful context for the seat expansion estimate.\n[14:32] Client: Please keep the renewal terms and added seats on the same proposal.\n[14:34] Account Manager: I will send one draft with the current and expanded options.\n[14:38] Client: Thanks. I will route it to procurement for approval.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-052",
+      "call_type": "external",
+      "call_date": "2026-04-20T10:45+00:00",
+      "customer_id": "CUST-05",
+      "transcript_text": "[10:45] Account Manager: Thanks for the call. I have the pricing proposal.\n[10:49] Client: Hi, this is Quinn from Evergreen Foods. The price increase is too expensive for us. Finance cut our budget and we need a discount.\n[10:53] Account Manager: We can offer 15 percent for a two year contract.\n[10:56] Client: That helps but it is still above what Fluxio quoted us.\n[10:59] Account Manager: I'll send an updated quote and we can talk again Friday.\n[11:01] Client: We need the renewal total to stay within the budget approved this quarter.\n[11:05] Account Manager: I will show the revised term and discount as separate line items.\n[11:06] Client: Please make the expiration date for the quote clear.\n[11:10] Account Manager: I will include that and send the proposal for your finance review.\n[11:14] Client: Thank you. I will bring it to our next budget meeting.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-053",
+      "call_type": "internal",
+      "call_date": "2026-09-05T13:15+00:00",
+      "customer_id": "",
+      "transcript_text": "[13:15] Eng Manager: (Sprint 20) Thanks everyone for joining the incident review for last week's SSO and login outage.\n[13:19] Engineer A: Root cause was an expired signing certificate in the auth service, which caused SAML callback failures.\n[13:21] Engineer B: Customers saw 403 errors and some saw 503 on the dashboard. We rolled back the config change within an hour.\n[13:22] Eng Manager: What's still unresolved?\n[13:25] Engineer A: We have no automated certificate renewal yet, it is a dependency on the platform team.\n[13:26] Engineer B: I'll add the alert and we will write the follow-up tasks today. Let's review in two weeks.\n[13:27] Eng Manager: Who owns the certificate renewal work and the missing alert?\n[13:31] Engineer A: I will own the alert; the platform team needs to confirm the renewal change.\n[13:35] Engineer B: I will link both tasks to the incident review record.\n[13:36] Eng Manager: Please bring the verification results to the follow-up review.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-054",
+      "call_type": "support",
+      "call_date": "2026-08-20T10:45+00:00",
+      "customer_id": "CUST-03",
+      "transcript_text": "[10:45] Agent: Hello, thanks for calling billing support.\n[10:47] Customer: Hi, this is Drew from Cobalt Retail. We were charged twice for the May invoice. That is a lot of money for a small team.\n[10:48] Agent: I see two payments on the credit card ending 4417. I'm sorry about the duplicate charge.\n[10:51] Customer: Can you refund it today? This is the second time this has happened.\n[10:54] Agent: I've issued the refund. It takes five to seven business days. I'll send a confirmation receipt.\n[10:55] Customer: Thanks, that's helpful.\n[10:58] Agent: Could you confirm which invoice number should remain on the account?\n[11:00] Customer: Keep the original invoice and reverse the second payment.\n[11:02] Agent: Understood. I have added that instruction to the refund request.\n[11:03] Customer: Thanks, I will watch for the confirmation email.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-055",
+      "call_type": "support",
+      "call_date": "2026-05-21T09:15+00:00",
+      "customer_id": "CUST-04",
+      "transcript_text": "[09:15] Agent: Support, this is Maya.\n[09:16] Customer: Hi, this is Reese from Dunmore Health. the dashboard is down for us, we get 503 errors. This outage is costing us money and it's unacceptable.\n[09:19] Agent: I'm sorry. I can confirm an incident and the status page is being updated.\n[09:20] Customer: Our whole operations team is stuck. I'm angry, please get an executive on the line.\n[09:21] Agent: I've escalated this as sev1 and engineering is working on it. I'll update you every thirty minutes.\n[09:24] Customer: We are evaluating other vendors if this isn't fixed.\n[09:28] Customer: Our team is checking the status page, but we need an update for our operations lead.\n[09:31] Agent: I will include the current incident status and the next update time in the case.\n[09:32] Customer: Please send the incident summary once service is stable.\n[09:35] Agent: Understood. I will follow up with the incident reference and any confirmed details.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-056",
+      "call_type": "external",
+      "call_date": "2026-06-19T13:15+00:00",
+      "customer_id": "CUST-08",
+      "transcript_text": "[13:15] Account Manager: Thanks for the call. I have the pricing proposal.\n[13:18] Client: Hi, this is Morgan from Helix Studios. The price increase is too expensive for us. Finance cut our budget and we need a discount.\n[13:20] Account Manager: We can offer 15 percent for a two year contract.\n[13:21] Client: Okay, that is closer. Let me take it to finance.\n[13:22] Account Manager: I'll send an updated quote and we can talk again Friday.\n[13:24] Client: We need the renewal total to stay within the budget approved this quarter.\n[13:27] Account Manager: I will show the revised term and discount as separate line items.\n[13:30] Client: Please make the expiration date for the quote clear.\n[13:32] Account Manager: I will include that and send the proposal for your finance review.\n[13:34] Client: Thank you. I will bring it to our next budget meeting.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-057",
+      "call_type": "support",
+      "call_date": "2026-09-02T12:00+00:00",
+      "customer_id": "CUST-09",
+      "transcript_text": "[12:00] Agent: Thanks for contacting support, this is Dan. How can I help?\n[12:04] Customer: Hi, this is Riley from Ironbridge Capital. Our users can't log in through SSO since we changed Okta last night. Half our team is locked out.\n[12:05] Agent: I'm sorry about that. Can you share the SAML error you see?\n[12:09] Customer: It says invalid assertion signature. Not sure what changed on our side.\n[12:10] Agent: It looks like the signing certificate on the identity provider side doesn't match the one in your tenant. I've escalated to our identity team.\n[12:13] Customer: Okay, that makes sense. Let's try it.\n[12:16] Agent: I'll send the steps by email and follow up in an hour.\n[12:18] Customer: I can test with one affected user before we roll this out to the whole team.\n[12:19] Agent: Please confirm whether the SAML login succeeds with the updated certificate.\n[12:20] Customer: I'll test with our admin account now and send you the result.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-058",
+      "call_type": "internal",
+      "call_date": "2026-05-08T10:00+00:00",
+      "customer_id": "",
+      "transcript_text": "[10:00] Eng Manager: (Sprint 41) Let's review the release status. Where do we stand on the 2.5 release?\n[10:03] Engineer A: We are delayed. The integration tests are flaky and the staging deploy failed twice.\n[10:07] Engineer B: QA is blocked waiting on the build. I think we need to slip the release by a week.\n[10:09] Eng Manager: Okay, let's freeze scope and I'll tell product.\n[10:13] Engineer A: I'll fix the flaky tests today and we will redeploy to staging tomorrow.\n[10:17] Engineer B: Action item: someone should own the rollback plan before we ship.\n[10:18] Eng Manager: What dependency should we raise first if the staging build fails again?\n[10:19] Engineer A: The test environment is the immediate dependency; I will attach the failing job output.\n[10:20] Engineer B: I will update the release ticket with the rollback owner and revised date.\n[10:23] Eng Manager: Let's review the build status in tomorrow's stand-up.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-059",
+      "call_type": "external",
+      "call_date": "2026-04-30T15:00+00:00",
+      "customer_id": "CUST-10",
+      "transcript_text": "[15:00] Account Manager: Thanks for making time. I wanted to talk about your renewal in two months.\n[15:02] Client: Hi, this is Taylor from Juniper Energy. Honestly we're on the fence about the renewal. Pricing went up and the budget is tight this year.\n[15:06] Account Manager: I understand. What would help you decide?\n[15:09] Client: Leadership asked us to look at alternatives. We may switch if we can't get a discount.\n[15:12] Account Manager: I hear you. Let me see what we can do on price and reliability commitments.\n[15:16] Client: Please send a proposal, but I'm not optimistic.\n[15:20] Client: Reliability and the total renewal cost are the two issues leadership wants addressed.\n[15:24] Account Manager: I will separate the pricing proposal from the reliability follow-up.\n[15:26] Client: Please include the renewal deadline so we can review both items internally.\n[15:30] Account Manager: I will send the proposal and schedule a check-in before that deadline.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-060",
+      "call_type": "external",
+      "call_date": "2026-09-06T16:30+00:00",
+      "customer_id": "CUST-04",
+      "transcript_text": "[16:30] Account Manager: Let's review adoption since the kickoff.\n[16:32] Client: Hi, this is Alex from Dunmore Health. Usage is low. Only about a quarter of our seats are logging in weekly and the training sessions were poorly attended.\n[16:33] Account Manager: Thanks for being open. Do you have an internal champion?\n[16:37] Client: Not really, our champion left. We are worried we're not getting value.\n[16:40] Account Manager: We can run a new enablement workshop and activate the remaining teams.\n[16:44] Client: Okay, I'll send names of who should attend.\n[16:45] Client: The new users will need a short session focused on their daily workflow.\n[16:47] Account Manager: I will tailor the workshop and send a few times for next week.\n[16:48] Client: Please include the team leads so they can reinforce the process afterward.\n[16:49] Account Manager: I will add them to the invite and share the setup guide.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-061",
+      "call_type": "external",
+      "call_date": "2026-07-08T11:45+00:00",
+      "customer_id": "CUST-15",
+      "transcript_text": "[11:45] Account Manager: Thanks for making time. I wanted to talk about your renewal in three months.\n[11:46] Client: Hi, this is Drew from Orchid Pharma. Honestly we're on the fence about the renewal. Pricing went up and the budget is tight this year.\n[11:49] Account Manager: I understand. What would help you decide?\n[11:53] Client: We are evaluating Quillbase and comparing prices. The outages last quarter worried us.\n[11:57] Account Manager: I hear you. Let me see what we can do on price and reliability commitments.\n[12:01] Client: Please send a proposal, but I'm not optimistic.\n[12:03] Client: Reliability and the total renewal cost are the two issues leadership wants addressed.\n[12:07] Account Manager: I will separate the pricing proposal from the reliability follow-up.\n[12:08] Client: Please include the renewal deadline so we can review both items internally.\n[12:10] Account Manager: I will send the proposal and schedule a check-in before that deadline.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-062",
+      "call_type": "external",
+      "call_date": "2026-05-31T13:00+00:00",
+      "customer_id": "CUST-12",
+      "transcript_text": "[13:00] Account Manager: Let's review adoption since the kickoff.\n[13:03] Client: Hi, this is Jamie from Lumen Schools. Usage is low. Only about a quarter of our seats are logging in weekly and the training sessions were poorly attended.\n[13:06] Account Manager: Thanks for being open. Do you have an internal champion?\n[13:07] Client: Not really, our champion left. We are worried we're not getting value.\n[13:11] Account Manager: We can run a new enablement workshop and activate the remaining teams.\n[13:14] Client: Okay, I'll send names of who should attend.\n[13:16] Client: The new users will need a short session focused on their daily workflow.\n[13:17] Account Manager: I will tailor the workshop and send a few times for next week.\n[13:21] Client: Please include the team leads so they can reinforce the process afterward.\n[13:22] Account Manager: I will add them to the invite and share the setup guide.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-063",
+      "call_type": "internal",
+      "call_date": "2026-06-13T11:30+00:00",
+      "customer_id": "",
+      "transcript_text": "[11:30] Eng Manager: (Sprint 27) Let's review the release status. Where do we stand on the 3.0 release?\n[11:31] Engineer A: We are delayed. The integration tests are flaky and the staging deploy failed twice.\n[11:32] Engineer B: QA is blocked waiting on the build. I think we need to slip the release by a week.\n[11:34] Eng Manager: That's frustrating but fine. I'll update the release train.\n[11:38] Engineer A: I'll fix the flaky tests today and we will redeploy to staging tomorrow.\n[11:42] Engineer B: Action item: someone should own the rollback plan before we ship.\n[11:43] Eng Manager: What dependency should we raise first if the staging build fails again?\n[11:44] Engineer A: The test environment is the immediate dependency; I will attach the failing job output.\n[11:48] Engineer B: I will update the release ticket with the rollback owner and revised date.\n[11:49] Eng Manager: Let's review the build status in tomorrow's stand-up.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-064",
+      "call_type": "support",
+      "call_date": "2026-09-28T12:45+00:00",
+      "customer_id": "CUST-10",
+      "transcript_text": "[12:45] Agent: Hi, thanks for contacting support.\n[12:46] Customer: Hi, this is Casey from Juniper Energy. Is there a way to get CSV export? We need a way to automate this and it's missing today.\n[12:48] Agent: That isn't available right now, but I can log a feature request for you.\n[12:51] Customer: That would be great, it would be nice if it landed soon.\n[12:53] Agent: I'll file it with product and send you the reference.\n[12:57] Customer: The team currently exports each report manually, which takes several hours.\n[12:58] Agent: I will include that workflow impact with the request for the product team.\n[13:00] Customer: A status update would help us decide whether to build a temporary workaround.\n[13:02] Agent: I can share the request reference, but I cannot promise a delivery date.\n[13:05] Customer: That is fair. Please send the reference when it is available.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-065",
+      "call_type": "external",
+      "call_date": "2026-07-16T10:15+00:00",
+      "customer_id": "CUST-03",
+      "transcript_text": "[10:15] Account Manager: Let's review adoption since the kickoff.\n[10:17] Client: Hi, this is Reese from Cobalt Retail. Usage is low. Only about a quarter of our seats are logging in weekly and the training sessions were poorly attended.\n[10:20] Account Manager: Thanks for being open. Do you have an internal champion?\n[10:23] Client: Yes, but they are overloaded. We need help with onboarding.\n[10:25] Account Manager: We can run a new enablement workshop and activate the remaining teams.\n[10:28] Client: Okay, I'll send names of who should attend.\n[10:32] Client: The new users will need a short session focused on their daily workflow.\n[10:35] Account Manager: I will tailor the workshop and send a few times for next week.\n[10:38] Client: Please include the team leads so they can reinforce the process afterward.\n[10:39] Account Manager: I will add them to the invite and share the setup guide.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-066",
+      "call_type": "support",
+      "call_date": "2026-08-20T12:00+00:00",
+      "customer_id": "CUST-10",
+      "transcript_text": "[12:00] Agent: Hello, thanks for calling billing support.\n[12:02] Customer: Hi, this is Quinn from Juniper Energy. We were charged twice for the March invoice. I'm worried about our cash flow.\n[12:05] Agent: I see two payments on the credit card ending 4417. I'm sorry about the duplicate charge.\n[12:06] Customer: Please refund one of them, I'd appreciate it.\n[12:07] Agent: I've issued the refund. It takes five to seven business days. I'll send a confirmation receipt.\n[12:09] Customer: Okay, thank you. Please make sure it doesn't happen again.\n[12:12] Agent: Could you confirm which invoice number should remain on the account?\n[12:15] Customer: Keep the original invoice and reverse the second payment.\n[12:17] Agent: Understood. I have added that instruction to the refund request.\n[12:20] Customer: Thanks, I will watch for the confirmation email.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-067",
+      "call_type": "internal",
+      "call_date": "2026-05-15T15:00+00:00",
+      "customer_id": "",
+      "transcript_text": "[15:00] Eng Manager: (Sprint 48) What's blocking the latency work?\n[15:03] Engineer A: We are blocked on the platform team for the new cache layer. They have no capacity until next quarter.\n[15:06] Engineer B: The backlog of tech debt in the query service is also slowing us down, and the review bottleneck is real.\n[15:07] Eng Manager: I'll escalate the dependency to the director.\n[15:10] Engineer A: That helps. I will write the design doc and send it for review.\n[15:13] Eng Manager: Can we split the cache work so the team can make progress before next quarter?\n[15:15] Engineer A: I can document the interface, but the platform team still owns the deployment dependency.\n[15:17] Engineer B: I will write down the review bottleneck and estimate the work we can do in parallel.\n[15:20] Eng Manager: Let's review both owners and dates at the next planning meeting.\n[15:22] Engineer A: I will send the design outline before then.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-068",
+      "call_type": "external",
+      "call_date": "2026-05-07T14:15+00:00",
+      "customer_id": "CUST-04",
+      "transcript_text": "[14:15] Account Manager: Thanks for making time. I wanted to talk about your renewal in three months.\n[14:16] Client: Hi, this is Alex from Dunmore Health. Honestly we're on the fence about the renewal. Pricing went up and the budget is tight this year.\n[14:20] Account Manager: I understand. What would help you decide?\n[14:23] Client: We are evaluating Quillbase and comparing prices. The outages last quarter worried us.\n[14:26] Account Manager: I hear you. Let me see what we can do on price and reliability commitments.\n[14:30] Client: Okay, send something. We haven't decided yet.\n[14:31] Client: Reliability and the total renewal cost are the two issues leadership wants addressed.\n[14:34] Account Manager: I will separate the pricing proposal from the reliability follow-up.\n[14:38] Client: Please include the renewal deadline so we can review both items internally.\n[14:41] Account Manager: I will send the proposal and schedule a check-in before that deadline.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-069",
+      "call_type": "support",
+      "call_date": "2026-05-24T12:00+00:00",
+      "customer_id": "CUST-10",
+      "transcript_text": "[12:00] Agent: Thanks for contacting support, this is Maya. How can I help?\n[12:02] Customer: Hi, this is Riley from Juniper Energy. Our users can't log in through SSO since we changed Azure AD last night. It is blocking about 45 people.\n[12:04] Agent: I'm sorry about that. Can you share the SAML error you see?\n[12:06] Customer: It says SAML callback failed with 403. Not sure what changed on our side.\n[12:10] Agent: It looks like the signing certificate on the identity provider side doesn't match the one in your tenant. I've escalated to our identity team.\n[12:14] Customer: Okay, that makes sense. Let's try it.\n[12:17] Agent: I'll send the steps by email and follow up in an hour.\n[12:19] Customer: I can test with one affected user before we roll this out to the whole team.\n[12:22] Agent: Please confirm whether the SAML login succeeds with the updated certificate.\n[12:23] Customer: I'll test with our admin account now and send you the result.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-070",
+      "call_type": "internal",
+      "call_date": "2026-04-07T10:45+00:00",
+      "customer_id": "",
+      "transcript_text": "[10:45] Eng Manager: (Sprint 27) What's blocking the latency work?\n[10:49] Engineer A: We are blocked on the platform team for the new cache layer. They have no capacity until next quarter.\n[10:50] Engineer B: The backlog of tech debt in the query service is also slowing us down, and the review bottleneck is real.\n[10:53] Eng Manager: I'll escalate the dependency to the director.\n[10:56] Engineer A: That helps. I will write the design doc and send it for review.\n[11:00] Eng Manager: Can we split the cache work so the team can make progress before next quarter?\n[11:02] Engineer A: I can document the interface, but the platform team still owns the deployment dependency.\n[11:05] Engineer B: I will write down the review bottleneck and estimate the work we can do in parallel.\n[11:09] Eng Manager: Let's review both owners and dates at the next planning meeting.\n[11:11] Engineer A: I will send the design outline before then.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-071",
+      "call_type": "internal",
+      "call_date": "2026-05-02T13:45+00:00",
+      "customer_id": "",
+      "transcript_text": "[13:45] Eng Manager: (Sprint 37) Thanks everyone for joining the incident review for last week's SSO and login outage.\n[13:49] Engineer A: Root cause was an expired signing certificate in the auth service, which caused SAML callback failures.\n[13:53] Engineer B: Customers saw 403 errors and some saw 503 on the reporting API. We rolled back the config change within an hour.\n[13:57] Eng Manager: What's still unresolved?\n[14:00] Engineer A: We have no automated certificate renewal yet, it is a dependency on the platform team.\n[14:02] Engineer B: I'll add the alert and we will write the follow-up tasks today. Let's review in two weeks.\n[14:06] Eng Manager: Who owns the certificate renewal work and the missing alert?\n[14:10] Engineer A: I will own the alert; the platform team needs to confirm the renewal change.\n[14:13] Engineer B: I will link both tasks to the incident review record.\n[14:16] Eng Manager: Please bring the verification results to the follow-up review.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-072",
+      "call_type": "external",
+      "call_date": "2026-07-26T14:45+00:00",
+      "customer_id": "CUST-15",
+      "transcript_text": "[14:45] Account Manager: I'd love your product feedback before the roadmap review.\n[14:46] Client: Hi, this is Riley from Orchid Pharma. The product is good overall. We need webhooks for ticket events. Do you support that on the roadmap?\n[14:49] Account Manager: I'll note it. How important is it for your workflow?\n[14:53] Client: It would be great if it shipped this year, otherwise we need a workaround.\n[14:56] Account Manager: Understood. I will follow up with product and share an update.\n[14:59] Client: The missing capability adds a manual step to our monthly reconciliation.\n[15:02] Account Manager: I will capture that workflow and pass it to the product review.\n[15:04] Client: A rough timing estimate would help us plan around the current limitation.\n[15:08] Account Manager: I can request an update, but the roadmap team makes the timing decision.\n[15:09] Client: Understood. Please share whatever the team can confirm.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-073",
+      "call_type": "external",
+      "call_date": "2026-05-01T08:45+00:00",
+      "customer_id": "CUST-05",
+      "transcript_text": "[08:45] Account Manager: I'd love your product feedback before the roadmap review.\n[08:49] Client: Hi, this is Riley from Evergreen Foods. The product is good overall. We need role-based dashboards. Do you support that on the roadmap?\n[08:51] Account Manager: I'll note it. How important is it for your workflow?\n[08:53] Client: It would be great if it shipped this year, otherwise we need a workaround.\n[08:57] Account Manager: Understood. I will follow up with product and share an update.\n[08:59] Client: The missing capability adds a manual step to our monthly reconciliation.\n[09:02] Account Manager: I will capture that workflow and pass it to the product review.\n[09:03] Client: A rough timing estimate would help us plan around the current limitation.\n[09:07] Account Manager: I can request an update, but the roadmap team makes the timing decision.\n[09:08] Client: Understood. Please share whatever the team can confirm.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-074",
+      "call_type": "internal",
+      "call_date": "2026-06-15T11:00+00:00",
+      "customer_id": "",
+      "transcript_text": "[11:00] Eng Manager: (Sprint 22) Thanks everyone for joining the incident review for last week's SSO and login outage.\n[11:02] Engineer A: Root cause was an expired signing certificate in the auth service, which caused SAML callback failures.\n[11:03] Engineer B: Customers saw 403 errors and some saw 503 on the reporting API. We rolled back the config change within an hour.\n[11:06] Eng Manager: What's still unresolved?\n[11:09] Engineer A: We have no automated certificate renewal yet, it is a dependency on the platform team.\n[11:13] Engineer B: I'll add the alert and we will write the follow-up tasks today. Let's review in two weeks.\n[11:17] Eng Manager: Who owns the certificate renewal work and the missing alert?\n[11:20] Engineer A: I will own the alert; the platform team needs to confirm the renewal change.\n[11:21] Engineer B: I will link both tasks to the incident review record.\n[11:23] Eng Manager: Please bring the verification results to the follow-up review.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-075",
+      "call_type": "internal",
+      "call_date": "2026-07-22T14:45+00:00",
+      "customer_id": "",
+      "transcript_text": "[14:45] Support Lead: (Sprint 30) We have several customers escalating about SSO login failures and one threatening to cancel.\n[14:49] Eng Manager: How many accounts are affected?\n[14:51] Support Lead: About five that we know of. Two said they're evaluating competitors if it isn't fixed.\n[14:54] Engineer A: We can prioritize a fix for the SAML certificate handling, but it competes with the release.\n[14:56] Eng Manager: Let's make it the top priority. I'll update the release plan and brief customer success.\n[14:59] Support Lead: Thanks, I'll send the affected account list today.\n[15:02] Eng Manager: What evidence should support use when customers ask for an update?\n[15:05] Support Lead: We can share the confirmed workaround and the next checkpoint, not an unverified ETA.\n[15:09] Eng Manager: Agreed. I will send that guidance to the account teams today.\n[15:11] Support Lead: I will update the affected accounts after the daily sync.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-076",
+      "call_type": "external",
+      "call_date": "2026-08-06T15:00+00:00",
+      "customer_id": "CUST-14",
+      "transcript_text": "[15:00] Account Manager: Thanks for making time. I wanted to talk about your renewal in two months.\n[15:02] Client: Hi, this is Drew from Northpeak Gear. Honestly we're on the fence about the renewal. Pricing went up and the budget is tight this year.\n[15:05] Account Manager: I understand. What would help you decide?\n[15:07] Client: We are evaluating Quillbase and comparing prices. The outages last quarter worried us.\n[15:10] Account Manager: I hear you. Let me see what we can do on price and reliability commitments.\n[15:14] Client: Okay, send something. We haven't decided yet.\n[15:18] Client: Reliability and the total renewal cost are the two issues leadership wants addressed.\n[15:19] Account Manager: I will separate the pricing proposal from the reliability follow-up.\n[15:20] Client: Please include the renewal deadline so we can review both items internally.\n[15:22] Account Manager: I will send the proposal and schedule a check-in before that deadline.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-077",
+      "call_type": "internal",
+      "call_date": "2026-05-03T16:00+00:00",
+      "customer_id": "",
+      "transcript_text": "[16:00] Eng Manager: (Sprint 41) Let's review the release status. Where do we stand on the 2.5 release?\n[16:04] Engineer A: We are delayed. The integration tests are flaky and the staging deploy failed twice.\n[16:07] Engineer B: QA is blocked waiting on the build. I think we need to slip the release by a week.\n[16:08] Eng Manager: That's frustrating but fine. I'll update the release train.\n[16:11] Engineer A: I'll fix the flaky tests today and we will redeploy to staging tomorrow.\n[16:14] Engineer B: Action item: someone should own the rollback plan before we ship.\n[16:16] Eng Manager: What dependency should we raise first if the staging build fails again?\n[16:18] Engineer A: The test environment is the immediate dependency; I will attach the failing job output.\n[16:21] Engineer B: I will update the release ticket with the rollback owner and revised date.\n[16:25] Eng Manager: Let's review the build status in tomorrow's stand-up.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-078",
+      "call_type": "support",
+      "call_date": "2026-09-08T11:30+00:00",
+      "customer_id": "CUST-02",
+      "transcript_text": "[11:30] Agent: Hi, thanks for contacting support.\n[11:31] Customer: Hi, this is Taylor from Brightwave Labs. Is there a way to get scheduled reports? We need a way to automate this and it's missing today.\n[11:33] Agent: That isn't available right now, but I can log a feature request for you.\n[11:35] Customer: That would be great, it would be nice if it landed soon.\n[11:37] Agent: I'll file it with product and send you the reference.\n[11:38] Customer: The team currently exports each report manually, which takes several hours.\n[11:40] Agent: I will include that workflow impact with the request for the product team.\n[11:41] Customer: A status update would help us decide whether to build a temporary workaround.\n[11:45] Agent: I can share the request reference, but I cannot promise a delivery date.\n[11:49] Customer: That is fair. Please send the reference when it is available.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-079",
+      "call_type": "external",
+      "call_date": "2026-06-05T15:30+00:00",
+      "customer_id": "CUST-08",
+      "transcript_text": "[15:30] Account Manager: Great to see you, ready to talk renewal?\n[15:31] Client: Hi, this is Quinn from Helix Studios. Yes, we're happy with the platform and plan to renew. Adoption has been excellent.\n[15:35] Account Manager: Wonderful. Would you like to expand to more seats?\n[15:38] Client: Yes, the team loves it and the support has been great.\n[15:40] Account Manager: I'll send the renewal quote and an expansion proposal this week.\n[15:41] Client: Our operations group has been using the new reports in its weekly review.\n[15:45] Account Manager: That is helpful context for the seat expansion estimate.\n[15:48] Client: Please keep the renewal terms and added seats on the same proposal.\n[15:51] Account Manager: I will send one draft with the current and expanded options.\n[15:55] Client: Thanks. I will route it to procurement for approval.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-080",
+      "call_type": "support",
+      "call_date": "2026-09-03T16:00+00:00",
+      "customer_id": "CUST-11",
+      "transcript_text": "[16:00] Agent: Support, how can I help?\n[16:04] Customer: Hi, this is Morgan from Kestrel Travel. The invoice shows the wrong tax rate for our region. Finance flagged it and they are annoyed.\n[16:06] Agent: Thanks for flagging. I'll check the tax settings on your billing profile.\n[16:09] Customer: Please correct it and reissue the invoice. Everything else about the service is good.\n[16:10] Agent: I will reissue it today and send a corrected receipt.\n[16:14] Customer: Can you confirm whether finance needs to submit a new tax form?\n[16:15] Agent: The current profile has the right address; I will verify the tax code with billing.\n[16:17] Customer: Please let me know if you need anything else from our finance team.\n[16:20] Agent: I will include the corrected invoice and the reason for the change in my update.\n[16:24] Customer: All right. We will hold payment until the corrected copy arrives.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-081",
+      "call_type": "external",
+      "call_date": "2026-05-02T15:30+00:00",
+      "customer_id": "CUST-03",
+      "transcript_text": "[15:30] Account Manager: Thanks for making time. I wanted to talk about your renewal in two months.\n[15:34] Client: Hi, this is Jamie from Cobalt Retail. Honestly we're on the fence about the renewal. Pricing went up and the budget is tight this year.\n[15:37] Account Manager: I understand. What would help you decide?\n[15:41] Client: We are evaluating Datanest and comparing prices. The outages last quarter worried us.\n[15:45] Account Manager: I hear you. Let me see what we can do on price and reliability commitments.\n[15:46] Client: Okay, send something. We haven't decided yet.\n[15:47] Client: Reliability and the total renewal cost are the two issues leadership wants addressed.\n[15:51] Account Manager: I will separate the pricing proposal from the reliability follow-up.\n[15:54] Client: Please include the renewal deadline so we can review both items internally.\n[15:57] Account Manager: I will send the proposal and schedule a check-in before that deadline.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-082",
+      "call_type": "internal",
+      "call_date": "2026-05-22T10:30+00:00",
+      "customer_id": "",
+      "transcript_text": "[10:30] Eng Manager: (Sprint 30) Let's review the release status. Where do we stand on the 3.0 release?\n[10:31] Engineer A: We are delayed. The integration tests are flaky and the staging deploy failed twice.\n[10:35] Engineer B: QA is blocked waiting on the build. I think we need to slip the release by a week.\n[10:38] Eng Manager: That's frustrating but fine. I'll update the release train.\n[10:39] Engineer A: I'll fix the flaky tests today and we will redeploy to staging tomorrow.\n[10:40] Engineer B: Action item: someone should own the rollback plan before we ship.\n[10:43] Eng Manager: What dependency should we raise first if the staging build fails again?\n[10:44] Engineer A: The test environment is the immediate dependency; I will attach the failing job output.\n[10:46] Engineer B: I will update the release ticket with the rollback owner and revised date.\n[10:49] Eng Manager: Let's review the build status in tomorrow's stand-up.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-083",
+      "call_type": "external",
+      "call_date": "2026-04-11T10:45+00:00",
+      "customer_id": "CUST-03",
+      "transcript_text": "[10:45] Account Manager: Thanks for making time. I wanted to talk about your renewal in two months.\n[10:49] Client: Hi, this is Drew from Cobalt Retail. Honestly we're on the fence about the renewal. Pricing went up and the budget is tight this year.\n[10:52] Account Manager: I understand. What would help you decide?\n[10:54] Client: We are evaluating Quillbase and comparing prices. The outages last quarter worried us.\n[10:58] Account Manager: I hear you. Let me see what we can do on price and reliability commitments.\n[11:02] Client: Okay, send something. We haven't decided yet.\n[11:03] Client: Reliability and the total renewal cost are the two issues leadership wants addressed.\n[11:07] Account Manager: I will separate the pricing proposal from the reliability follow-up.\n[11:10] Client: Please include the renewal deadline so we can review both items internally.\n[11:14] Account Manager: I will send the proposal and schedule a check-in before that deadline.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-084",
+      "call_type": "internal",
+      "call_date": "2026-08-05T08:30+00:00",
+      "customer_id": "",
+      "transcript_text": "[08:30] Eng Manager: (Sprint 35) What's blocking the latency work?\n[08:33] Engineer A: We are blocked on the platform team for the new cache layer. They have no capacity until next quarter.\n[08:37] Engineer B: The backlog of tech debt in the query service is also slowing us down, and the review bottleneck is real.\n[08:39] Eng Manager: I'll escalate the dependency to the director.\n[08:40] Engineer A: That helps. I will write the design doc and send it for review.\n[08:41] Eng Manager: Can we split the cache work so the team can make progress before next quarter?\n[08:44] Engineer A: I can document the interface, but the platform team still owns the deployment dependency.\n[08:48] Engineer B: I will write down the review bottleneck and estimate the work we can do in parallel.\n[08:52] Eng Manager: Let's review both owners and dates at the next planning meeting.\n[08:56] Engineer A: I will send the design outline before then.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-085",
+      "call_type": "internal",
+      "call_date": "2026-08-06T16:45+00:00",
+      "customer_id": "",
+      "transcript_text": "[16:45] Support Lead: (Sprint 30) We have several customers escalating about SSO login failures and one threatening to cancel.\n[16:49] Eng Manager: How many accounts are affected?\n[16:52] Support Lead: About eight that we know of. Two said they're evaluating competitors if it isn't fixed.\n[16:56] Engineer A: We can prioritize a fix for the SAML certificate handling, but it competes with the release.\n[16:57] Eng Manager: Let's make it the top priority. I'll update the release plan and brief customer success.\n[16:58] Support Lead: Thanks, I'll send the affected account list today.\n[17:02] Eng Manager: What evidence should support use when customers ask for an update?\n[17:06] Support Lead: We can share the confirmed workaround and the next checkpoint, not an unverified ETA.\n[17:08] Eng Manager: Agreed. I will send that guidance to the account teams today.\n[17:10] Support Lead: I will update the affected accounts after the daily sync.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-086",
+      "call_type": "internal",
+      "call_date": "2026-08-31T15:30+00:00",
+      "customer_id": "",
+      "transcript_text": "[15:30] Support Lead: (Sprint 51) We have several customers escalating about SSO login failures and one threatening to cancel.\n[15:31] Eng Manager: How many accounts are affected?\n[15:32] Support Lead: About five that we know of. Two said they're evaluating competitors if it isn't fixed.\n[15:36] Engineer A: We can prioritize a fix for the SAML certificate handling, but it competes with the release.\n[15:38] Eng Manager: Okay, I'll take the action item to set up a daily sync until it's resolved.\n[15:41] Support Lead: Thanks, I'll send the affected account list today.\n[15:44] Eng Manager: What evidence should support use when customers ask for an update?\n[15:48] Support Lead: We can share the confirmed workaround and the next checkpoint, not an unverified ETA.\n[15:51] Eng Manager: Agreed. I will send that guidance to the account teams today.\n[15:52] Support Lead: I will update the affected accounts after the daily sync.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-087",
+      "call_type": "support",
+      "call_date": "2026-06-11T13:45+00:00",
+      "customer_id": "CUST-09",
+      "transcript_text": "[13:45] Agent: Support, how can I help?\n[13:48] Customer: Hi, this is Sam from Ironbridge Capital. The invoice shows the wrong tax rate for our region. Finance flagged it and they are annoyed.\n[13:49] Agent: Thanks for flagging. I'll check the tax settings on your billing profile.\n[13:50] Customer: Please correct it and reissue the invoice. Everything else about the service is good.\n[13:53] Agent: I will reissue it today and send a corrected receipt.\n[13:55] Customer: Can you confirm whether finance needs to submit a new tax form?\n[13:58] Agent: The current profile has the right address; I will verify the tax code with billing.\n[13:59] Customer: Please let me know if you need anything else from our finance team.\n[14:00] Agent: I will include the corrected invoice and the reason for the change in my update.\n[14:04] Customer: All right. We will hold payment until the corrected copy arrives.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-088",
+      "call_type": "external",
+      "call_date": "2026-05-03T11:00+00:00",
+      "customer_id": "CUST-01",
+      "transcript_text": "[11:00] Account Manager: Let's review adoption since the kickoff.\n[11:02] Client: Hi, this is Taylor from Acme Freight. Usage is low. Only about a quarter of our seats are logging in weekly and the training sessions were poorly attended.\n[11:04] Account Manager: Thanks for being open. Do you have an internal champion?\n[11:06] Client: Not really, our champion left. We are worried we're not getting value.\n[11:09] Account Manager: We can run a new enablement workshop and activate the remaining teams.\n[11:11] Client: Okay, I'll send names of who should attend.\n[11:12] Client: The new users will need a short session focused on their daily workflow.\n[11:15] Account Manager: I will tailor the workshop and send a few times for next week.\n[11:17] Client: Please include the team leads so they can reinforce the process afterward.\n[11:19] Account Manager: I will add them to the invite and share the setup guide.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-089",
+      "call_type": "external",
+      "call_date": "2026-06-23T09:00+00:00",
+      "customer_id": "CUST-11",
+      "transcript_text": "[09:00] Account Manager: I'd love your product feedback before the roadmap review.\n[09:02] Client: Hi, this is Casey from Kestrel Travel. The product is good overall. We need webhooks for ticket events. Do you support that on the roadmap?\n[09:04] Account Manager: I'll note it. How important is it for your workflow?\n[09:05] Client: It would be great if it shipped this year, otherwise we need a workaround.\n[09:06] Account Manager: Understood. I will follow up with product and share an update.\n[09:09] Client: The missing capability adds a manual step to our monthly reconciliation.\n[09:13] Account Manager: I will capture that workflow and pass it to the product review.\n[09:17] Client: A rough timing estimate would help us plan around the current limitation.\n[09:21] Account Manager: I can request an update, but the roadmap team makes the timing decision.\n[09:25] Client: Understood. Please share whatever the team can confirm.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-090",
+      "call_type": "external",
+      "call_date": "2026-08-07T11:00+00:00",
+      "customer_id": "CUST-15",
+      "transcript_text": "[11:00] Account Manager: I'd love your product feedback before the roadmap review.\n[11:03] Client: Hi, this is Jamie from Orchid Pharma. The product is good overall. We need role-based dashboards. Do you support that on the roadmap?\n[11:07] Account Manager: I'll note it. How important is it for your workflow?\n[11:08] Client: It is missing and it's a blocker for two of our teams, a little disappointing.\n[11:09] Account Manager: Understood. I will follow up with product and share an update.\n[11:13] Client: The missing capability adds a manual step to our monthly reconciliation.\n[11:17] Account Manager: I will capture that workflow and pass it to the product review.\n[11:21] Client: A rough timing estimate would help us plan around the current limitation.\n[11:22] Account Manager: I can request an update, but the roadmap team makes the timing decision.\n[11:26] Client: Understood. Please share whatever the team can confirm.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-091",
+      "call_type": "external",
+      "call_date": "2026-08-05T12:45+00:00",
+      "customer_id": "CUST-11",
+      "transcript_text": "[12:45] Account Manager: Thanks for making time. I wanted to talk about your renewal in two months.\n[12:46] Client: Hi, this is Reese from Kestrel Travel. Honestly we're on the fence about the renewal. Pricing went up and the budget is tight this year.\n[12:50] Account Manager: I understand. What would help you decide?\n[12:51] Client: We are evaluating Datanest and comparing prices. The outages last quarter worried us.\n[12:54] Account Manager: I hear you. Let me see what we can do on price and reliability commitments.\n[12:57] Client: Okay, send something. We haven't decided yet.\n[13:00] Client: Reliability and the total renewal cost are the two issues leadership wants addressed.\n[13:01] Account Manager: I will separate the pricing proposal from the reliability follow-up.\n[13:05] Client: Please include the renewal deadline so we can review both items internally.\n[13:06] Account Manager: I will send the proposal and schedule a check-in before that deadline.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-092",
+      "call_type": "support",
+      "call_date": "2026-09-06T10:15+00:00",
+      "customer_id": "CUST-18",
+      "transcript_text": "[10:15] Agent: Support, how can I help?\n[10:17] Customer: Hi, this is Morgan from Redwood Legal. The invoice shows the wrong tax rate for our region. Finance flagged it and they are annoyed.\n[10:19] Agent: Thanks for flagging. I'll check the tax settings on your billing profile.\n[10:23] Customer: Please correct it and reissue the invoice. Everything else about the service is good.\n[10:24] Agent: I will reissue it today and send a corrected receipt.\n[10:26] Customer: Can you confirm whether finance needs to submit a new tax form?\n[10:29] Agent: The current profile has the right address; I will verify the tax code with billing.\n[10:33] Customer: Please let me know if you need anything else from our finance team.\n[10:35] Agent: I will include the corrected invoice and the reason for the change in my update.\n[10:38] Customer: All right. We will hold payment until the corrected copy arrives.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-093",
+      "call_type": "support",
+      "call_date": "2026-07-29T16:30+00:00",
+      "customer_id": "CUST-03",
+      "transcript_text": "[16:30] Agent: Thanks for contacting support, this is Maya. How can I help?\n[16:31] Customer: Hi, this is Drew from Cobalt Retail. Our users can't log in through SSO since we changed Ping Identity last night. It is blocking about 30 people.\n[16:32] Agent: I'm sorry about that. Can you share the SAML error you see?\n[16:35] Customer: It says SAML callback failed with 403. This is really frustrating, we have a deadline today.\n[16:38] Agent: It looks like the signing certificate on the identity provider side doesn't match the one in your tenant. Let's update the certificate together.\n[16:39] Customer: Okay, that makes sense. Let's try it.\n[16:42] Agent: I'll send the steps by email and follow up in an hour.\n[16:46] Customer: I can test with one affected user before we roll this out to the whole team.\n[16:48] Agent: Please confirm whether the SAML login succeeds with the updated certificate.\n[16:52] Customer: I'll test with our admin account now and send you the result.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-094",
+      "call_type": "internal",
+      "call_date": "2026-04-21T08:30+00:00",
+      "customer_id": "",
+      "transcript_text": "[08:30] Support Lead: (Sprint 21) We have several customers escalating about SSO login failures and one threatening to cancel.\n[08:32] Eng Manager: How many accounts are affected?\n[08:36] Support Lead: About eight that we know of. Two said they're evaluating competitors if it isn't fixed.\n[08:37] Engineer A: We can prioritize a fix for the SAML certificate handling, but it competes with the release.\n[08:41] Eng Manager: Let's make it the top priority. I'll update the release plan and brief customer success.\n[08:44] Support Lead: Thanks, I'll send the affected account list today.\n[08:47] Eng Manager: What evidence should support use when customers ask for an update?\n[08:51] Support Lead: We can share the confirmed workaround and the next checkpoint, not an unverified ETA.\n[08:53] Eng Manager: Agreed. I will send that guidance to the account teams today.\n[08:57] Support Lead: I will update the affected accounts after the daily sync.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-095",
+      "call_type": "support",
+      "call_date": "2026-08-14T08:30+00:00",
+      "customer_id": "CUST-09",
+      "transcript_text": "[08:30] Agent: Thanks for contacting support, this is Dan. How can I help?\n[08:34] Customer: Hi, this is Avery from Ironbridge Capital. Our users can't log in through SSO since we changed Ping Identity last night. Half our team is locked out.\n[08:35] Agent: I'm sorry about that. Can you share the SAML error you see?\n[08:36] Customer: It says invalid assertion signature. This is really frustrating, we have a deadline today.\n[08:39] Agent: It looks like the signing certificate on the identity provider side doesn't match the one in your tenant. Let's update the certificate together.\n[08:42] Customer: Okay, please be quick, this is unacceptable for a paid plan.\n[08:44] Agent: I'll send the steps by email and follow up in an hour.\n[08:45] Customer: I can test with one affected user before we roll this out to the whole team.\n[08:47] Agent: Please confirm whether the SAML login succeeds with the updated certificate.\n[08:48] Customer: I'll test with our admin account now and send you the result.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-096",
+      "call_type": "external",
+      "call_date": "2026-08-02T11:00+00:00",
+      "customer_id": "CUST-17",
+      "transcript_text": "[11:00] Account Manager: I'd love your product feedback before the roadmap review.\n[11:03] Client: Hi, this is Quinn from Quartz Telecom. The product is good overall. We need webhooks for ticket events. Do you support that on the roadmap?\n[11:06] Account Manager: I'll note it. How important is it for your workflow?\n[11:07] Client: It is missing and it's a blocker for two of our teams, a little disappointing.\n[11:10] Account Manager: Understood. I will follow up with product and share an update.\n[11:12] Client: The missing capability adds a manual step to our monthly reconciliation.\n[11:16] Account Manager: I will capture that workflow and pass it to the product review.\n[11:17] Client: A rough timing estimate would help us plan around the current limitation.\n[11:20] Account Manager: I can request an update, but the roadmap team makes the timing decision.\n[11:21] Client: Understood. Please share whatever the team can confirm.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-097",
+      "call_type": "external",
+      "call_date": "2026-07-08T15:00+00:00",
+      "customer_id": "CUST-15",
+      "transcript_text": "[15:00] Account Manager: Great to see you, ready to talk renewal?\n[15:02] Client: Hi, this is Taylor from Orchid Pharma. Yes, we're happy with the platform and plan to renew. Adoption has been excellent.\n[15:06] Account Manager: Wonderful. Would you like to expand to more seats?\n[15:09] Client: Yes, the team loves it and the support has been great.\n[15:12] Account Manager: I'll send the renewal quote and an expansion proposal this week.\n[15:15] Client: Our operations group has been using the new reports in its weekly review.\n[15:16] Account Manager: That is helpful context for the seat expansion estimate.\n[15:20] Client: Please keep the renewal terms and added seats on the same proposal.\n[15:23] Account Manager: I will send one draft with the current and expanded options.\n[15:24] Client: Thanks. I will route it to procurement for approval.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-098",
+      "call_type": "external",
+      "call_date": "2026-06-29T08:15+00:00",
+      "customer_id": "CUST-09",
+      "transcript_text": "[08:15] Account Manager: I'd love your product feedback before the roadmap review.\n[08:17] Client: Hi, this is Riley from Ironbridge Capital. The product is good overall. We need SAML group mapping. Do you support that on the roadmap?\n[08:21] Account Manager: I'll note it. How important is it for your workflow?\n[08:22] Client: It would be great if it shipped this year, otherwise we need a workaround.\n[08:24] Account Manager: Understood. I will follow up with product and share an update.\n[08:25] Client: The missing capability adds a manual step to our monthly reconciliation.\n[08:26] Account Manager: I will capture that workflow and pass it to the product review.\n[08:28] Client: A rough timing estimate would help us plan around the current limitation.\n[08:32] Account Manager: I can request an update, but the roadmap team makes the timing decision.\n[08:36] Client: Understood. Please share whatever the team can confirm.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-099",
+      "call_type": "internal",
+      "call_date": "2026-09-04T12:45+00:00",
+      "customer_id": "",
+      "transcript_text": "[12:45] Eng Manager: (Sprint 48) Let's review the release status. Where do we stand on the 3.0 release?\n[12:47] Engineer A: We are delayed. The integration tests are flaky and the staging deploy failed twice.\n[12:49] Engineer B: QA is blocked waiting on the build. I think we need to slip the release by a week.\n[12:52] Eng Manager: Okay, let's freeze scope and I'll tell product.\n[12:56] Engineer A: I'll fix the flaky tests today and we will redeploy to staging tomorrow.\n[12:58] Engineer B: Action item: someone should own the rollback plan before we ship.\n[13:01] Eng Manager: What dependency should we raise first if the staging build fails again?\n[13:05] Engineer A: The test environment is the immediate dependency; I will attach the failing job output.\n[13:09] Engineer B: I will update the release ticket with the rollback owner and revised date.\n[13:12] Eng Manager: Let's review the build status in tomorrow's stand-up.",
+      "data_origin": "synthetic"
+    },
+    {
+      "transcript_id": "SYN-100",
+      "call_type": "support",
+      "call_date": "2026-09-30T12:15+00:00",
+      "customer_id": "CUST-17",
+      "transcript_text": "[12:15] Agent: Support here. What's going on?\n[12:18] Customer: Hi, this is Sam from Quartz Telecom. Calls to the ingestion service are very slow, p95 latency is over 12 seconds and we see timeouts.\n[12:21] Agent: Thanks. Are the timeouts only on large queries, or on everything?\n[12:24] Customer: Mostly large exports. It's getting painful.\n[12:25] Agent: I can see elevated response time on your region. I'll open a performance ticket and follow up.\n[12:27] Customer: Okay, please keep me posted.\n[12:29] Customer: Can you share an estimated time for the performance investigation?\n[12:31] Agent: I will attach your request IDs and the affected region to the ticket.\n[12:35] Customer: Please keep the case open until the timeouts stop.\n[12:37] Agent: Agreed. I will send the next update even if the investigation is still underway.",
+      "data_origin": "synthetic"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "status": "candidate taxonomy - revise after inspecting real data (see notebook, clustering section)",
+  "topics": [
+    {"name": "Authentication & Access", "description": "Login, SSO/SAML, MFA, passwords, permissions, API credentials.",
+     "keywords": ["login", "log in", "sso", "saml", "okta", "password", "mfa", "2fa", "locked out", "permission", "permissions", "access denied", "unauthorized", "oauth", "api key", "token expired"]},
+    {"name": "Billing & Payments", "description": "Invoices, duplicate charges, refunds, taxes, payment methods.",
+     "keywords": ["invoice", "billing", "charged", "charge", "refund", "payment", "credit card", "double charged", "tax", "receipt", "overage"]},
+    {"name": "Performance & Latency", "description": "Slow responses, timeouts, degraded speed.",
+     "keywords": ["slow", "latency", "timeout", "timeouts", "timing out", "timed out", "lag", "response time", "p95", "performance", "takes forever"]},
+    {"name": "Reliability & Outages", "description": "Downtime, 5xx errors, incidents affecting availability.",
+     "keywords": ["outage", "went down", "is down", "are down", "service down", "downtime", "unavailable", "503", "500 error", "incident", "status page", "not responding", "sev1", "crashed"]},
+    {"name": "Product Features & Feedback", "description": "Feature requests, missing capabilities, product feedback.",
+     "keywords": ["feature", "would be great", "would be nice", "wish", "missing", "roadmap", "export", "integration", "webhook", "webhooks", "feedback", "workflow", "dashboard", "report"]},
+    {"name": "Adoption & Onboarding", "description": "Getting started, training, seat usage, low adoption.",
+     "keywords": ["onboarding", "adoption", "training", "seats", "usage", "getting started", "enable", "activate", "champion", "kickoff", "logging in weekly", "enablement"]},
+    {"name": "Renewals & Pricing", "description": "Renewal discussions, pricing, discounts, budgets, competitors.",
+     "keywords": ["renewal", "renew", "contract", "pricing", "price", "discount", "budget", "cancel", "competitor", "quote", "expensive", "price increase"]},
+    {"name": "Engineering Blockers", "description": "Internal blockers: dependencies, capacity, flaky tests, review bottlenecks.",
+     "keywords": ["blocked", "blocker", "dependency", "waiting on", "waiting for", "tech debt", "flaky", "capacity", "backlog", "bottleneck", "can't proceed"]},
+    {"name": "Deployment & Release Management", "description": "Deploys, releases, rollbacks, freezes, CI/CD.",
+     "keywords": ["deploy", "deployment", "release", "rollback", "hotfix", "canary", "pipeline", "freeze", "staging", "release train", "rolled back"]},
+    {"name": "Other", "description": "Does not fit another topic.", "keywords": []}
+  ]
+}

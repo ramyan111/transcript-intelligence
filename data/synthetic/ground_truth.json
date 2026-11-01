@@ -1,0 +1,805 @@
+{
+  "_note": "Scenario-designed synthetic labels; not human-reviewed.",
+  "labels": [
+    {
+      "transcript_id": "SYN-001",
+      "call_type": "internal",
+      "topic_label": "Deployment & Release Management",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "dc3be1d4e2cd1aac"
+    },
+    {
+      "transcript_id": "SYN-002",
+      "call_type": "support",
+      "topic_label": "Performance & Latency",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "d482772ab4ca029d"
+    },
+    {
+      "transcript_id": "SYN-003",
+      "call_type": "support",
+      "topic_label": "Authentication & Access",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "cd05fa4c547a9b96"
+    },
+    {
+      "transcript_id": "SYN-004",
+      "call_type": "external",
+      "topic_label": "Renewals & Pricing",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "879d520f50f925d9"
+    },
+    {
+      "transcript_id": "SYN-005",
+      "call_type": "support",
+      "topic_label": "Billing & Payments",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "20ee9729dacb2f0f"
+    },
+    {
+      "transcript_id": "SYN-006",
+      "call_type": "external",
+      "topic_label": "Adoption & Onboarding",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "f2148b34762b1b9e"
+    },
+    {
+      "transcript_id": "SYN-007",
+      "call_type": "support",
+      "topic_label": "Billing & Payments",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "8b254b41e6c0e7af"
+    },
+    {
+      "transcript_id": "SYN-008",
+      "call_type": "internal",
+      "topic_label": "Reliability & Outages",
+      "sentiment_label": "Neutral",
+      "data_origin": "synthetic",
+      "text_hash": "ee6b37634ab0429d"
+    },
+    {
+      "transcript_id": "SYN-009",
+      "call_type": "external",
+      "topic_label": "Renewals & Pricing",
+      "sentiment_label": "Positive",
+      "data_origin": "synthetic",
+      "text_hash": "91b077b5e50b28d3"
+    },
+    {
+      "transcript_id": "SYN-010",
+      "call_type": "external",
+      "topic_label": "Product Features & Feedback",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "79b14ad3b729f1ca"
+    },
+    {
+      "transcript_id": "SYN-011",
+      "call_type": "support",
+      "topic_label": "Product Features & Feedback",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "521f4f686dbbfc72"
+    },
+    {
+      "transcript_id": "SYN-012",
+      "call_type": "support",
+      "topic_label": "Product Features & Feedback",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "eb19758ab304f246"
+    },
+    {
+      "transcript_id": "SYN-013",
+      "call_type": "internal",
+      "topic_label": "Engineering Blockers",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "59d41abfcd20c54f"
+    },
+    {
+      "transcript_id": "SYN-014",
+      "call_type": "internal",
+      "topic_label": "Reliability & Outages",
+      "sentiment_label": "Neutral",
+      "data_origin": "synthetic",
+      "text_hash": "4e05b1ed0f60e9d1"
+    },
+    {
+      "transcript_id": "SYN-015",
+      "call_type": "support",
+      "topic_label": "Authentication & Access",
+      "sentiment_label": "Positive",
+      "data_origin": "synthetic",
+      "text_hash": "314ac6c496da0186"
+    },
+    {
+      "transcript_id": "SYN-016",
+      "call_type": "support",
+      "topic_label": "Performance & Latency",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "bd41e95be48e1a93"
+    },
+    {
+      "transcript_id": "SYN-017",
+      "call_type": "internal",
+      "topic_label": "Deployment & Release Management",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "19e992092a53b668"
+    },
+    {
+      "transcript_id": "SYN-018",
+      "call_type": "internal",
+      "topic_label": "Engineering Blockers",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "be1e670ab308ccf9"
+    },
+    {
+      "transcript_id": "SYN-019",
+      "call_type": "support",
+      "topic_label": "Performance & Latency",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "9b98b1b3e937adbd"
+    },
+    {
+      "transcript_id": "SYN-020",
+      "call_type": "support",
+      "topic_label": "Reliability & Outages",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "89197cdd3c5d36cf"
+    },
+    {
+      "transcript_id": "SYN-021",
+      "call_type": "support",
+      "topic_label": "Reliability & Outages",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "d07f7987126cab68"
+    },
+    {
+      "transcript_id": "SYN-022",
+      "call_type": "external",
+      "topic_label": "Renewals & Pricing",
+      "sentiment_label": "Positive",
+      "data_origin": "synthetic",
+      "text_hash": "c87ded909217ebc3"
+    },
+    {
+      "transcript_id": "SYN-023",
+      "call_type": "internal",
+      "topic_label": "Reliability & Outages",
+      "sentiment_label": "Neutral",
+      "data_origin": "synthetic",
+      "text_hash": "e8430e58a22cb7a7"
+    },
+    {
+      "transcript_id": "SYN-024",
+      "call_type": "external",
+      "topic_label": "Renewals & Pricing",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "26b49f9e179acaca"
+    },
+    {
+      "transcript_id": "SYN-025",
+      "call_type": "support",
+      "topic_label": "Reliability & Outages",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "20680db0077784c7"
+    },
+    {
+      "transcript_id": "SYN-026",
+      "call_type": "support",
+      "topic_label": "Authentication & Access",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "627da8861c192dfb"
+    },
+    {
+      "transcript_id": "SYN-027",
+      "call_type": "support",
+      "topic_label": "Performance & Latency",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "0905a43f2e0b9ba5"
+    },
+    {
+      "transcript_id": "SYN-028",
+      "call_type": "support",
+      "topic_label": "Reliability & Outages",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "09fa7973114915da"
+    },
+    {
+      "transcript_id": "SYN-029",
+      "call_type": "internal",
+      "topic_label": "Engineering Blockers",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "da793986b6be9802"
+    },
+    {
+      "transcript_id": "SYN-030",
+      "call_type": "support",
+      "topic_label": "Billing & Payments",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "a25fc706e7e139c6"
+    },
+    {
+      "transcript_id": "SYN-031",
+      "call_type": "internal",
+      "topic_label": "Engineering Blockers",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "05c1edf77cebb3db"
+    },
+    {
+      "transcript_id": "SYN-032",
+      "call_type": "support",
+      "topic_label": "Reliability & Outages",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "78e120722ca5241e"
+    },
+    {
+      "transcript_id": "SYN-033",
+      "call_type": "external",
+      "topic_label": "Adoption & Onboarding",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "777c7e3bae3d4c4b"
+    },
+    {
+      "transcript_id": "SYN-034",
+      "call_type": "support",
+      "topic_label": "Billing & Payments",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "b8e90fdb39633c5c"
+    },
+    {
+      "transcript_id": "SYN-035",
+      "call_type": "support",
+      "topic_label": "Authentication & Access",
+      "sentiment_label": "Positive",
+      "data_origin": "synthetic",
+      "text_hash": "ad30882155f4807f"
+    },
+    {
+      "transcript_id": "SYN-036",
+      "call_type": "external",
+      "topic_label": "Renewals & Pricing",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "c77a68a7c336caf8"
+    },
+    {
+      "transcript_id": "SYN-037",
+      "call_type": "support",
+      "topic_label": "Billing & Payments",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "ff3ca64bf9496002"
+    },
+    {
+      "transcript_id": "SYN-038",
+      "call_type": "support",
+      "topic_label": "Authentication & Access",
+      "sentiment_label": "Positive",
+      "data_origin": "synthetic",
+      "text_hash": "cf406ce727aa45a4"
+    },
+    {
+      "transcript_id": "SYN-039",
+      "call_type": "support",
+      "topic_label": "Performance & Latency",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "764b79488bbdc385"
+    },
+    {
+      "transcript_id": "SYN-040",
+      "call_type": "external",
+      "topic_label": "Product Features & Feedback",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "f0a808e4de7b07be"
+    },
+    {
+      "transcript_id": "SYN-041",
+      "call_type": "external",
+      "topic_label": "Product Features & Feedback",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "155c54df0ce0392a"
+    },
+    {
+      "transcript_id": "SYN-042",
+      "call_type": "support",
+      "topic_label": "Reliability & Outages",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "cd1bc30fe67a1568"
+    },
+    {
+      "transcript_id": "SYN-043",
+      "call_type": "support",
+      "topic_label": "Authentication & Access",
+      "sentiment_label": "Positive",
+      "data_origin": "synthetic",
+      "text_hash": "878bddcec1095d48"
+    },
+    {
+      "transcript_id": "SYN-044",
+      "call_type": "external",
+      "topic_label": "Adoption & Onboarding",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "69c071b9617fe312"
+    },
+    {
+      "transcript_id": "SYN-045",
+      "call_type": "internal",
+      "topic_label": "Engineering Blockers",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "7497348a72ce772d"
+    },
+    {
+      "transcript_id": "SYN-046",
+      "call_type": "support",
+      "topic_label": "Authentication & Access",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "4e2faac92cab0210"
+    },
+    {
+      "transcript_id": "SYN-047",
+      "call_type": "external",
+      "topic_label": "Renewals & Pricing",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "5a81764d36f3be32"
+    },
+    {
+      "transcript_id": "SYN-048",
+      "call_type": "external",
+      "topic_label": "Renewals & Pricing",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "1eae0706fd02e880"
+    },
+    {
+      "transcript_id": "SYN-049",
+      "call_type": "support",
+      "topic_label": "Product Features & Feedback",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "c2d8d755e4af7a87"
+    },
+    {
+      "transcript_id": "SYN-050",
+      "call_type": "support",
+      "topic_label": "Product Features & Feedback",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "f73485612fb669d3"
+    },
+    {
+      "transcript_id": "SYN-051",
+      "call_type": "external",
+      "topic_label": "Renewals & Pricing",
+      "sentiment_label": "Positive",
+      "data_origin": "synthetic",
+      "text_hash": "f755c9078e68f90f"
+    },
+    {
+      "transcript_id": "SYN-052",
+      "call_type": "external",
+      "topic_label": "Renewals & Pricing",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "edbcd372d34130cb"
+    },
+    {
+      "transcript_id": "SYN-053",
+      "call_type": "internal",
+      "topic_label": "Reliability & Outages",
+      "sentiment_label": "Neutral",
+      "data_origin": "synthetic",
+      "text_hash": "c0716a5de3c290f1"
+    },
+    {
+      "transcript_id": "SYN-054",
+      "call_type": "support",
+      "topic_label": "Billing & Payments",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "089d5b36c348d3df"
+    },
+    {
+      "transcript_id": "SYN-055",
+      "call_type": "support",
+      "topic_label": "Reliability & Outages",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "6d45db3900be81a7"
+    },
+    {
+      "transcript_id": "SYN-056",
+      "call_type": "external",
+      "topic_label": "Renewals & Pricing",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "ac4389eb2fbca82b"
+    },
+    {
+      "transcript_id": "SYN-057",
+      "call_type": "support",
+      "topic_label": "Authentication & Access",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "2ed76485903e4d40"
+    },
+    {
+      "transcript_id": "SYN-058",
+      "call_type": "internal",
+      "topic_label": "Deployment & Release Management",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "d741267cc7ddaba4"
+    },
+    {
+      "transcript_id": "SYN-059",
+      "call_type": "external",
+      "topic_label": "Renewals & Pricing",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "1c6014581d767691"
+    },
+    {
+      "transcript_id": "SYN-060",
+      "call_type": "external",
+      "topic_label": "Adoption & Onboarding",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "d0c5e6764bd27bb3"
+    },
+    {
+      "transcript_id": "SYN-061",
+      "call_type": "external",
+      "topic_label": "Renewals & Pricing",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "e930fa6f3add2f0a"
+    },
+    {
+      "transcript_id": "SYN-062",
+      "call_type": "external",
+      "topic_label": "Adoption & Onboarding",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "e7409a9e6428f332"
+    },
+    {
+      "transcript_id": "SYN-063",
+      "call_type": "internal",
+      "topic_label": "Deployment & Release Management",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "8bdd24f5fa847eb8"
+    },
+    {
+      "transcript_id": "SYN-064",
+      "call_type": "support",
+      "topic_label": "Product Features & Feedback",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "2c627f22c92cc4ec"
+    },
+    {
+      "transcript_id": "SYN-065",
+      "call_type": "external",
+      "topic_label": "Adoption & Onboarding",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "ed3b28644a18f184"
+    },
+    {
+      "transcript_id": "SYN-066",
+      "call_type": "support",
+      "topic_label": "Billing & Payments",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "fd5e3c3bbd964a48"
+    },
+    {
+      "transcript_id": "SYN-067",
+      "call_type": "internal",
+      "topic_label": "Engineering Blockers",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "db367932ab8b7f6c"
+    },
+    {
+      "transcript_id": "SYN-068",
+      "call_type": "external",
+      "topic_label": "Renewals & Pricing",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "f4b7bd09ac86d6a0"
+    },
+    {
+      "transcript_id": "SYN-069",
+      "call_type": "support",
+      "topic_label": "Authentication & Access",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "f72a1ba3b1fe44af"
+    },
+    {
+      "transcript_id": "SYN-070",
+      "call_type": "internal",
+      "topic_label": "Engineering Blockers",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "013f97e2d54e1c07"
+    },
+    {
+      "transcript_id": "SYN-071",
+      "call_type": "internal",
+      "topic_label": "Reliability & Outages",
+      "sentiment_label": "Neutral",
+      "data_origin": "synthetic",
+      "text_hash": "f7d4e7c0b0365ab0"
+    },
+    {
+      "transcript_id": "SYN-072",
+      "call_type": "external",
+      "topic_label": "Product Features & Feedback",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "4f570daed4350809"
+    },
+    {
+      "transcript_id": "SYN-073",
+      "call_type": "external",
+      "topic_label": "Product Features & Feedback",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "e11b687eb8d21cbb"
+    },
+    {
+      "transcript_id": "SYN-074",
+      "call_type": "internal",
+      "topic_label": "Reliability & Outages",
+      "sentiment_label": "Neutral",
+      "data_origin": "synthetic",
+      "text_hash": "9147e56871b56cee"
+    },
+    {
+      "transcript_id": "SYN-075",
+      "call_type": "internal",
+      "topic_label": "Engineering Blockers",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "151563ec2ac6e47f"
+    },
+    {
+      "transcript_id": "SYN-076",
+      "call_type": "external",
+      "topic_label": "Renewals & Pricing",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "87ceffebb4576a0b"
+    },
+    {
+      "transcript_id": "SYN-077",
+      "call_type": "internal",
+      "topic_label": "Deployment & Release Management",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "6471e3c0e311da0b"
+    },
+    {
+      "transcript_id": "SYN-078",
+      "call_type": "support",
+      "topic_label": "Product Features & Feedback",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "7d7521405da301fe"
+    },
+    {
+      "transcript_id": "SYN-079",
+      "call_type": "external",
+      "topic_label": "Renewals & Pricing",
+      "sentiment_label": "Positive",
+      "data_origin": "synthetic",
+      "text_hash": "0745f99c27f9b1b2"
+    },
+    {
+      "transcript_id": "SYN-080",
+      "call_type": "support",
+      "topic_label": "Billing & Payments",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "68cb9d2aa19a5d6a"
+    },
+    {
+      "transcript_id": "SYN-081",
+      "call_type": "external",
+      "topic_label": "Renewals & Pricing",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "d219dd097f90f706"
+    },
+    {
+      "transcript_id": "SYN-082",
+      "call_type": "internal",
+      "topic_label": "Deployment & Release Management",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "29bf0ad0fd6d49f7"
+    },
+    {
+      "transcript_id": "SYN-083",
+      "call_type": "external",
+      "topic_label": "Renewals & Pricing",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "465f1ccc4e1fd4bc"
+    },
+    {
+      "transcript_id": "SYN-084",
+      "call_type": "internal",
+      "topic_label": "Engineering Blockers",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "5c16f5c29dca8101"
+    },
+    {
+      "transcript_id": "SYN-085",
+      "call_type": "internal",
+      "topic_label": "Engineering Blockers",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "a732b24a40029953"
+    },
+    {
+      "transcript_id": "SYN-086",
+      "call_type": "internal",
+      "topic_label": "Engineering Blockers",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "fd413702e1189f18"
+    },
+    {
+      "transcript_id": "SYN-087",
+      "call_type": "support",
+      "topic_label": "Billing & Payments",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "a4f015ca65068c8c"
+    },
+    {
+      "transcript_id": "SYN-088",
+      "call_type": "external",
+      "topic_label": "Adoption & Onboarding",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "62f94250b2dcc32a"
+    },
+    {
+      "transcript_id": "SYN-089",
+      "call_type": "external",
+      "topic_label": "Product Features & Feedback",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "6bae2e1f43eea303"
+    },
+    {
+      "transcript_id": "SYN-090",
+      "call_type": "external",
+      "topic_label": "Product Features & Feedback",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "34e3fc02f608473b"
+    },
+    {
+      "transcript_id": "SYN-091",
+      "call_type": "external",
+      "topic_label": "Renewals & Pricing",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "45c67d2332d22aae"
+    },
+    {
+      "transcript_id": "SYN-092",
+      "call_type": "support",
+      "topic_label": "Billing & Payments",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "ac624c95600a7ab8"
+    },
+    {
+      "transcript_id": "SYN-093",
+      "call_type": "support",
+      "topic_label": "Authentication & Access",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "aef602162b34471f"
+    },
+    {
+      "transcript_id": "SYN-094",
+      "call_type": "internal",
+      "topic_label": "Engineering Blockers",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "a2f6b77677a0602c"
+    },
+    {
+      "transcript_id": "SYN-095",
+      "call_type": "support",
+      "topic_label": "Authentication & Access",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "f10bde3cdaf1769c"
+    },
+    {
+      "transcript_id": "SYN-096",
+      "call_type": "external",
+      "topic_label": "Product Features & Feedback",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "1587869512fd5f82"
+    },
+    {
+      "transcript_id": "SYN-097",
+      "call_type": "external",
+      "topic_label": "Renewals & Pricing",
+      "sentiment_label": "Positive",
+      "data_origin": "synthetic",
+      "text_hash": "b092caa5d127bb04"
+    },
+    {
+      "transcript_id": "SYN-098",
+      "call_type": "external",
+      "topic_label": "Product Features & Feedback",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "03320abe9ccb7096"
+    },
+    {
+      "transcript_id": "SYN-099",
+      "call_type": "internal",
+      "topic_label": "Deployment & Release Management",
+      "sentiment_label": "Mixed",
+      "data_origin": "synthetic",
+      "text_hash": "58e5c8ada5727e78"
+    },
+    {
+      "transcript_id": "SYN-100",
+      "call_type": "support",
+      "topic_label": "Performance & Latency",
+      "sentiment_label": "Negative",
+      "data_origin": "synthetic",
+      "text_hash": "c4e480efdcbb584e"
+    }
+  ]
+}
